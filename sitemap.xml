@@ -1,4 +1,26 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.pages %}
+        {% if page.layout != nil %}
+            <url>
+                <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
 
+                {% if page.sitemap.priority != nil %}
+                    <priority>{{ page.sitemap.priority }}</priority>
+                {% endif %}
+
+                {% if page.sitemap.changefreq != nil %}
+                    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+                {% endif %}
+
+                {% if page.sitemap.lastmod != nil %}
+                    <lastmod>{{ page.sitemap.lastmod }}</lastmod>
+                {% endif %}
+            </url>
+        {% endif %}
+    {% endfor %}
 </urlset>
