@@ -1,23 +1,24 @@
-encoding: utf-8
+encoding:           utf-8
 
-# Site settings
-title: Peter Folta
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/website/_site" # the subpath of your site, e.g. /blog/
-url: "http://localhost" # the base hostname & protocol for your site
+title:              Peter Folta
+description:        >
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
 
-exclude: ['README.md']
+url:                "http://localhost"
+baseurl:            "/website/_site"
 
-permalink: pretty
+exclude:
+    - .gitignore
+    - README.md
 
-twitter_username: jekyllrb
-github_username:  pfolta
+permalink:          pretty
 
-# Build settings
-markdown: kramdown
+twitter_username:   jekyllrb
+github_username:    pfolta
 
 jekyll-minifier:
-    exclude: ['humans.txt', 'robots.txt']
+    exclude:
+        - humans.txt
+        - robots.txt
