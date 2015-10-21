@@ -1,0 +1,25 @@
+.cv
+
+    .section
+        border-bottom: 1px #aaaaaa solid
+
+        .title
+            float: left
+            width: 33%
+
+            h2
+                font-size: 1.5em
+                text-transform: uppercase
+
+        .content
+            float: right
+            width: 66%
+
+    .section:first-child
+        border-top: 1px #aaaaaa solid
+
+    .section::after
+        clear: both
+        content: ""
+        display: block
+        visibility: hidden
