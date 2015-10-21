@@ -8,18 +8,6 @@ layout: null
         {% if page.layout != nil %}
             <url>
                 <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
-
-                {% if page.sitemap.priority != nil %}
-                    <priority>{{ page.sitemap.priority }}</priority>
-                {% endif %}
-
-                {% if page.sitemap.changefreq != nil %}
-                    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-                {% endif %}
-
-                {% if page.sitemap.lastmod != nil %}
-                    <lastmod>{{ page.sitemap.lastmod }}</lastmod>
-                {% endif %}
             </url>
         {% endif %}
     {% endfor %}
