@@ -1,7 +1,8 @@
 .cv
 
-    .section
+    .cv-section
         border-bottom: 1px #aaaaaa solid
+        overflow: hidden
 
         .title
             float: left
@@ -15,11 +16,5 @@
             float: right
             width: 66%
 
-    .section:first-child
+    .cv-section:first-child
         border-top: 1px #aaaaaa solid
-
-    .section::after
-        clear: both
-        content: ""
-        display: block
-        visibility: hidden
