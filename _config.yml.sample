@@ -8,6 +8,7 @@ description:        >
 
 url:                "http://new.peterfolta.net"
 baseurl:            ""
+cdnurl:             "http://cdn.peterfolta.net/static/pf/website"
 
 exclude:
     - .gitignore
