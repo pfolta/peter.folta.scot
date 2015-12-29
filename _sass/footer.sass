@@ -2,6 +2,8 @@
 
     background-color: $color-theme-4
     color: $color-grey-1
+    font-size: 0.875rem
+    text-align: center
 
     .wrapper
         padding: 1rem
@@ -19,4 +21,14 @@
 
         ul
             list-style-type: none
-            margin: 0
+            overflow: hidden
+
+            li
+                float: left
+
+            li::after
+                content: "\00b7"
+                margin: 0 0.5rem
+
+            li:last-child::after
+                content: ""
