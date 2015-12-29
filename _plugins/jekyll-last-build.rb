@@ -5,7 +5,7 @@
 #     {% render_time Page generated at: %}
 
 module Jekyll
-    class RenderTimeTag < Liquid::Tag
+    class LastBuildTag < Liquid::Tag
 
         def initialize(tag_name, text, tokens)
             super
@@ -13,9 +13,9 @@ module Jekyll
         end
 
         def render(context)
-            "#{@text} #{Time.now.strftime("%d/%m/%Y")}"
+            "#{@text} #{Time.now.strftime("%B %e, %Y %H:%M %Z")}"
         end
     end
 end
 
-Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTag)
+Liquid::Template.register_tag('last_build', Jekyll::LastBuildTag)
