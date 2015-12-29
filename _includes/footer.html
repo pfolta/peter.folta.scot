@@ -1,16 +1,12 @@
 <footer class="footer">
-    <div class="wrapper">
-        <div class="links">
-            <ul>
-                <li><a href="{{ site.repositoryurl }}"><i class="fa fa-github"></i> Source Code</a></li>
-                <li><a href="{{ site.repositoryurl }}/issues"><i class="fa fa-bug"></i> Feedback</a></li>
-            </ul>
-        </div>
+    <div class="wrapper clearfix">
+        <ul class="links">
+            <li><a href="{{ site.repositoryurl }}"><i class="fa fa-github"></i> Source Code</a></li>
+            <li><a href="{{ site.repositoryurl }}/issues"><i class="fa fa-bug"></i> Feedback</a></li>
+        </ul>
 
-        <div class="notice">
-            <p class="copyright">Copyright © 2004-2015 Peter Folta. All rights reserved.</p>
-            <p class="license">Code licensed under the <a href="{{ site.repositoryurl }}/blob/master/LICENSE">MIT License</a>.</p>
-            <p class="last-build">Last build — <a href="{{ site.repositoryurl }}/commits/master">{% last_build %}</a>.</p>
-        </div>
+        <p class="copyright">Copyright © {{ site.copyright_year }} {{ site.copyright_holder }}. All rights reserved.</p>
+        <p class="license">Code licensed under the <a href="{{ site.repositoryurl }}/blob/master/LICENSE">MIT License</a>.</p>
+        <p class="last-build">Last build — <a href="{{ site.repositoryurl }}/commits/master">{% last_build %}</a>.</p>
     </div>
 </footer>

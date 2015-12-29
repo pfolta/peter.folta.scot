@@ -3,7 +3,6 @@
     background-color: $color-theme-4
     color: $color-grey-1
     font-size: 0.875rem
-    text-align: center
 
     .wrapper
         padding: 1rem
@@ -17,18 +16,37 @@
         border-bottom: 1px solid
         color: $color-main-background
 
-    .links
+    ul.links
+        list-style-type: none
+        overflow: hidden
 
-        ul
-            list-style-type: none
-            overflow: hidden
+        li
+            float: left
+
+        li::after
+            content: "\00b7"
+            margin: 0 0.5rem
+
+        li:last-child::after
+            content: ""
+
+    p
+        text-align: center
+
+    p.last-build
+        margin-bottom: 0
+
+    @media only screen and (min-width: 30em)
+        ul.links
+            float: right
+            text-align: right
 
             li
-                float: left
+                float: none
 
             li::after
-                content: "\00b7"
-                margin: 0 0.5rem
-
-            li:last-child::after
                 content: ""
+                margin: 0
+
+        p
+            text-align: left
