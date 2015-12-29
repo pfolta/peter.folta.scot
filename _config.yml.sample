@@ -10,8 +10,11 @@ url:                "http://new.peterfolta.net"
 baseurl:            ""
 cdnurl:             "http://cdn.peterfolta.net/static/pf/website"
 
+repositoryurl:      "https://github.com/pfolta/peterfolta.net"
+
 exclude:
     - .gitignore
+    - LICENSE
     - README.md
 
 permalink:          pretty

@@ -2,15 +2,15 @@
     <div class="wrapper">
         <div class="links">
             <ul>
-                <li><a href="#">Source Code</a></li>
-                <li><a href="#">Feedback</a></li>
+                <li><a href="{{ site.repositoryurl }}">Source Code</a></li>
+                <li><a href="{{ site.repositoryurl }}/issues">Feedback</a></li>
             </ul>
         </div>
 
         <div class="notice">
             <p class="copyright">Copyright © 2004-2015 Peter Folta. All rights reserved.</p>
-            <p class="license">Code licensed under the <a href="#">MIT License</a>.</p>
-            <p class="last-build">Last build — <a href="#">{% last_build %}</a>.</p>
+            <p class="license">Code licensed under the <a href="{{ site.repositoryurl }}/blob/master/LICENSE">MIT License</a>.</p>
+            <p class="last-build">Last build — <a href="{{ site.repositoryurl }}/commits/master">{% last_build %}</a>.</p>
         </div>
     </div>
 </footer>
