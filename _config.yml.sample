@@ -16,9 +16,6 @@ exclude:
 
 permalink:          pretty
 
-twitter_username:   jekyllrb
-github_username:    pfolta
-
 jekyll-minifier:
     exclude:
         - humans.txt
