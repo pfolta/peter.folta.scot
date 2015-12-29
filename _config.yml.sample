@@ -8,7 +8,7 @@ description:        >
 
 url:                "http://new.peterfolta.net"
 baseurl:            ""
-cdnurl:             "http://cdn.peterfolta.net/static/pf/website"
+cdnurl:             "http://cdn.peterfolta.net/static/peterfolta.net"
 
 repositoryurl:      "https://github.com/pfolta/peterfolta.net"
 
