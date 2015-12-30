@@ -1,0 +1,63 @@
+@-moz-viewport {
+    width: device-width;
+    scale: 1;
+}
+
+@-ms-viewport {
+    width: device-width;
+    scale: 1;
+}
+
+@-o-viewport {
+    width: device-width;
+    scale: 1;
+}
+
+@-webkit-viewport {
+    width: device-width;
+    scale: 1;
+}
+
+@viewport {
+    width: device-width;
+    scale: 1;
+}
+
+html {
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+::-moz-selection {
+    background-color: $color-theme-2;
+    color: #ffffff;
+}
+
+::selection {
+    background-color: $color-theme-2;
+    color: #ffffff;
+}
+
+html {
+    font-family: "Liberation Sans", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: $max-page-width;
+}
