@@ -50,6 +50,7 @@ html {
 }
 
 body {
+    background-color: $color-theme-4;
     min-height: 100vh;
 }
 
@@ -60,4 +61,8 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: $max-page-width;
+}
+
+.main {
+    background-color: $color-main-background;
 }
