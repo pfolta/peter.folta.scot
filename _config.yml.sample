@@ -1,29 +1,40 @@
-encoding:           utf-8
+encoding:               utf-8
 
-title:              Peter Folta
-description:        >
+title:                  Peter Folta
+description:            >
     Write an awesome description for your new site here. You can edit this
     line in _config.yml. It will appear in your document head meta (for
     Google search results) and in your feed.xml site description.
-copyright_year:     2004–2015
-copyright_holder:   Peter Folta
+copyright_year:         2004–2015
+copyright_holder:       Peter Folta
 
-url:                "http://new.peterfolta.net"
-baseurl:            ""
-cdnurl:             "http://cdn.peterfolta.net/static/peterfolta.net"
+url:                    "http://new.peterfolta.net"
+baseurl:                ""
+cdnurl:                 "http://cdn.peterfolta.net/static/peterfolta.net"
 
-repositoryurl:      "https://github.com/pfolta/peterfolta.net"
+repositoryurl:          "https://github.com/pfolta/peterfolta.net"
+
+social-facebook:        "https://www.facebook.com/pfolta"
+social-twitter:         "https://twitter.com/pfoltaUK"
+social-google-plus:     "https://plus.google.com/u/0/109828658620052977808/posts"
+social-youtube:         "https://www.youtube.com/channel/UCnevILqoJ6RvmIz4cn9XkJw"
+social-pinterest:       "https://www.pinterest.com/pfolta/"
+social-github:          "https://github.com/pfolta"
+social-stackexchange:   "http://stackexchange.com/users/3834287/pfolta"
+social-linkedin:        "https://www.linkedin.com/in/peterfolta"
+social-500px:           "https://500px.com/pfolta"
+social-instagram:       "https://www.instagram.com/pfolta/"
 
 exclude:
     - .gitignore
     - LICENSE
     - README.md
 
-permalink:          pretty
+permalink:              pretty
 
 sass:
-    sass_dir:       /_scss
-    style:          compressed
+    sass_dir:           /_scss
+    style:              compressed
 
 jekyll-minifier:
     exclude:
