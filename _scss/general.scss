@@ -33,11 +33,6 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
-    -webkit-transition: all 250ms ease-in-out 0ms;
-    -moz-transition: all 250ms ease-in-out 0ms;
-    -ms-transition: all 250ms ease-in-out 0ms;
-    -o-transition: all 250ms ease-in-out 0ms;
-    transition: all 250ms ease-in-out 0ms;
 }
 
 ::-moz-selection {
