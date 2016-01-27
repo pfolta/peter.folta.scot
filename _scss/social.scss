@@ -26,6 +26,8 @@
             border-radius: 50%;
             color: $color-grey-1;
             display: inline-block;
+
+            text-align: center;
             text-decoration: none;
 
             line-height: 100%;
@@ -33,7 +35,7 @@
             height: 2em;
             width: 2em;
 
-            padding-top: 15%;
+            padding-top: 0.375em;
 
             -webkit-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out;
             -moz-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out;
