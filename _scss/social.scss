@@ -37,11 +37,11 @@
 
             padding-top: 0.375em;
 
-            -webkit-transition: all 250ms ease-in-out;
-            -moz-transition: all 250ms ease-in-out;
-            -ms-transition: all 250ms ease-in-out;
-            -o-transition: all 250ms ease-in-out;
-            transition: all 250ms ease-in-out;
+            -webkit-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+            -moz-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+            -ms-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+            -o-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+            transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
         }
 
         a:hover {
