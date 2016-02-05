@@ -6,7 +6,6 @@
         background-color: red;
 
         width: 100%;
-        max-width: 35rem;
 
         .links {
             margin: 0;
@@ -138,6 +137,8 @@
 
     @media only screen and (min-width: $screen-width-m) {
         .wrapper {
+            max-width: 30rem;
+
             .links {
                 li {
                     width: 10%;
