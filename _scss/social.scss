@@ -16,7 +16,7 @@
                 float: left;
                 width: 50%;
 
-                padding: 0.5rem 0;
+                padding-bottom: 1rem;
 
                 a {
                     border: 2px currentColor solid;
@@ -29,12 +29,10 @@
 
                     line-height: 100%;
 
-                    font-size: 150%;
+                    width: 2rem;
+                    height: 2rem;
 
-                    width: 2.75rem;
-                    height: 2.75rem;
-
-                    padding-top: 0.75rem;
+                    padding-top: 0.5rem;
 
                     -webkit-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
                     -moz-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
@@ -92,11 +90,6 @@
                 }
             }
 
-            li:first-child,
-            li:nth-child(2) {
-                padding-top: 0;
-            }
-
             li:last-child,
             li:nth-last-child(2) {
                 padding-bottom: 0;
@@ -111,19 +104,13 @@
                     width: 20%;
 
                     a {
-                        font-size: 150%;
+                        font-size: 100%;
 
-                        width: 3rem;
-                        height: 3rem;
+                        width: 2rem;
+                        height: 2rem;
 
-                        padding-top: 0.75rem;
+                        padding-top: 0.5rem;
                     }
-                }
-
-                li:nth-child(3),
-                li:nth-child(4),
-                li:nth-child(5) {
-                    padding-top: 0;
                 }
 
                 li:nth-last-child(3),
