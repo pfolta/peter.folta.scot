@@ -35,6 +35,14 @@
                     -ms-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
                     -o-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
                     transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+
+                    i {
+                        -webkit-transition: transform 250ms ease-in-out;
+                        -moz-transition: transform 250ms ease-in-out;
+                        -ms-transition: transform 250ms ease-in-out;
+                        -o-transition: transform 250ms ease-in-out;
+                        transition: transform 250ms ease-in-out;
+                    }
                 }
 
                 a:hover {
@@ -42,6 +50,8 @@
 
                     i {
                         color: $color-main-background;
+
+                        transform: scale(1.5);
                     }
                 }
 
