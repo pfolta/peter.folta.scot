@@ -2,22 +2,78 @@
 layout: default
 ---
 
-<div class="home">
+<main class="home">
+    <section id="about-me">
+        <figure>
+            <img src="http://placehold.it/500x500" class="flex-img">
+        </figure>
+        <div class="text gutter">
+            <blockquote class="giga">
+                Hi, I'm Peter and welcome to my website! Lorem ipsum dolor sit amet
+            </blockquote>
+        </div>
+        <div class="cta">
+            <a class="button push" href="#">Read more</a>
+        </div>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
+    <section>
+        <figure>
+            <img src="http://placehold.it/1600x900/4CB8DC" class="flex-img">
+        </figure>
+        <div class="text gutter">
+            <h2>I'm a Software Engineer</h2>
+            <p>
+                bla bla bla
+            </p>
+        </div>
+        <div class="cta">
+            <a class="button push" href="#">Read more</a>
+        </div>
+    </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <section>
+        <figure>
+            <img src="http://placehold.it/1600x900/4CB8DC" class="flex-img">
+        </figure>
+        <div class="text gutter">
+            <h2>I'm a Photographer</h2>
+            <p>
+                bla bla bla
+            </p>
+        </div>
+        <div class="cta">
+            <a class="button push" href="#">Read more</a>
+        </div>
+    </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <section>
+        <figure>
+            <img src="http://placehold.it/1600x900/4CB8DC" class="flex-img">
+        </figure>
+        <div class="text gutter">
+            <h2>I'm a Musician</h2>
+            <p>
+                bla bla bla
+            </p>
+        </div>
+        <div class="cta">
+            <a class="button push" href="#">Read more</a>
+        </div>
+    </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <section>
+        <figure>
+            <img src="http://placehold.it/1600x900/4CB8DC" class="flex-img">
+        </figure>
+        <div class="text gutter">
+            <h2>I'm a Writer</h2>
+            <p>
+                bla bla bla
+            </p>
+        </div>
+        <div class="cta">
+            <a class="button push" href="#">Read more</a>
+        </div>
+    </section>
+</main>
