@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/pfolta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://peterfolta.net
+  * I am pfolta (https://keybase.io/pfolta) on keybase.
+  * I have a public key with fingerprint 1A4F ACB5 8C76 D38C 2256  E524 AF79 742E C840 2750
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015fb73fb4280808d3315dbcf87ddd902a6130207c248802d04a49cf50b44be85c0a",
+            "fingerprint": "1a4facb58c76d38c2256e524af79742ec8402750",
+            "host": "keybase.io",
+            "key_id": "af79742ec8402750",
+            "kid": "01015fb73fb4280808d3315dbcf87ddd902a6130207c248802d04a49cf50b44be85c0a",
+            "uid": "f8ce6f54e7525d571bd4ff563f9b9a19",
+            "username": "pfolta"
+        },
+        "service": {
+            "hostname": "peterfolta.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1450711395,
+    "expire_in": 157680000,
+    "prev": "d2b1517f7aeb4bcad4ec72d0ed798bcdc84e474cd9463f04821d2056e250e6c4",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJdSFRBFF61Ms1IsUx7CLqIDyU5d3Zm597FoIJMsywk0spa7/zc9aa7
+d9u9aiZKoBGF0kNRRJBJZC9RiJFZUWpCkQZRYlFh9GdBJT0U9pI1V/Ktx2Yehjnn
++775zpkztDDBkxy3qO/rwJbfO0vihgdO1Xp2HMhijQq1eYPib1SqxcwhariIOYFq
+iyt+BahAxSYlXpMiqAG5uderYk6ZqRHOuQ6g4VO9AALCINI0ADlABtKZiQFFiAoN
+M2AouYpphYMiGolaYUfKqgYyDUaxxoiPezUGIfYJDJFhEp0gKJiGACQYSGKVHXMZ
+0hw1YmK1ZcuYvARm7P0D/599187ImRoTPhMjQTDEHBOVcmSa2Oc1daobqu4CYyIa
+NkJCoiOmXeMYSlOuImN1FhNuW906ZvPCEdEZzOqwcCQ3ErUdm9k1MlflOBG/S3Ua
+Ii62XtDAX5UAtcJctlES6kQ0Ztlhxa9KJHMsV1ZFGBBV9eo4VxEHIlZUBCwXgYlP
+A3K5z4g6KckhVbFKTGIIiigzOBKMyPoFJ7pGGZfNFIggxnUkCwRIgyqHQH4QxED4
+GFLcuvaHbcXvkzaNoJSMWcGw4dRGhdI02F8xxxOX7Jk3N94dL09yUurs0A1nJ05j
+58XId3a3bPmng+PXx+BwQUbvkw3vj169NGHM3+jVx2oLfv3u2Hw7O/8tf5WXkhQ5
+/GAoL97M6Zr88hqP+QeP1x/qXpqwrvRGet6mN+cvWg8zT/Xv+ZCpNw00XGmcKhp4
+V+nZNt3c3Xe2/RxpSf/x8kTcEfNzMG2kbcXNxVNUqcqeKrt/Q3R0xloePHp8uqW/
+ddnSk3e2FB78WNA6uv5ywpqe3qLiIrK1+daukxmhe0PPRkf3TniKfsavDV1LzPpe
+Mp3zvOdM5bGctozqtNCc0u3ltCzYnt9fGSouXBBKja28sLv86UhKgVP6y15SlVb+
+Y1/FeNcq2Bn6tjmt5dytM5Oi/Q/uZD5E
+=NycL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pfolta
+
+==================================================================
