@@ -56,6 +56,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    background-color: $color-main-background;
+}
+
 .clearfix {
     overflow: hidden;
 }
@@ -63,10 +67,6 @@ body {
 .wrapper {
     padding-left: calc(50% - (#{$max-page-width})/2);
     padding-right: calc(50% - (#{$max-page-width})/2);
-}
-
-.content {
-    background-color: $color-main-background;
 }
 
 .flex-img {
