@@ -4,6 +4,7 @@ rvm: 2.1
 install:
   - gem install jekyll
   - gem install yui-compressor
+  - gem install htmlcompressor
 
 script:
   - jekyll build
