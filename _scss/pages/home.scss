@@ -1,21 +1,20 @@
 @charset "utf-8";
 
 .home {
-    section {
-        .text {
-            text-align: center;
-        }
-    }
-
     #about-me {
-        figure img {
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            border-radius: 50%;
+        figure {
+            img {
+                border: 0.35em $color-grey-1 solid;
 
-            max-width: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
 
-            margin: 0 auto;
+                max-height: 15rem;
+                max-width: 50%;
+
+                margin: 0 auto;
+            }
         }
     }
 }

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+section {
+    .text {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: $screen-width-l) {
+    section.grid {
+        display: flex;
+        align-items: center;
+
+        figure,
+        .description {
+            margin: 0;
+            width: 50%;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    section.grid:nth-of-type(odd) {
+        flex-direction: row-reverse;
+    }
+}
