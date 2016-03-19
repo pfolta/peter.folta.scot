@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-section {
-    .text {
-        text-align: center;
-    }
-}
-
 @media only screen and (min-width: $screen-width-l) {
     section.grid {
         display: flex;
@@ -20,10 +14,12 @@ section {
         .description {
             display: flex;
             flex-direction: column;
+
+            text-align: center;
         }
     }
 
-    section.grid:nth-of-type(odd) {
+    section.grid:nth-of-type(even) {
         flex-direction: row-reverse;
     }
 }
