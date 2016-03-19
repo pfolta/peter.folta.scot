@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+blockquote {
+    text-align: center;
+
+    display: inline-block;
+    overflow: hidden;
+
+    position: relative;
+
+    padding: 0 2em;
+}
+
+blockquote:before, blockquote:after {
+    font-family: "Liberation Serif", serif;
+    font-size: 4em;
+    line-height: 1;
+
+    height: 0.5em;
+
+    color: $color-grey-1;
+
+    position: absolute;
+}
+
+blockquote:before {
+    content: "“";
+
+    top: -0.125em;
+    left: 0;
+}
+
+blockquote:after {
+    content: "”";
+
+    bottom: -0.0625em;
+    right: 0;
+}

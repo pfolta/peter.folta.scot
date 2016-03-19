@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.social {
+    background-color: $color-grey-4;
+    color: $color-grey-1;
+
+    .links {
+        text-align: center;
+
+        li {
+            display: block;
+            float: left;
+            width: (100% / 2);
+
+            padding-bottom: 1rem;
+        }
+
+        li:last-child,
+        li:nth-last-child(2) {
+            padding-bottom: 0;
+        }
+    }
+
+    @media only screen and (min-width: $screen-width-s) {
+        .links {
+            li {
+                width: (100% / 5);
+            }
+
+            li:nth-last-child(3),
+            li:nth-last-child(4),
+            li:nth-last-child(5) {
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $screen-width-m) {
+        .links {
+            display: table;
+            margin: 0 auto;
+
+            li {
+                width: auto;
+                padding-bottom: 0;
+            }
+
+            li:first-child {
+                padding-left: 0;
+            }
+
+            li:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}

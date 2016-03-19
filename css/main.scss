@@ -1,0 +1,30 @@
+---
+---
+
+@charset "utf-8";
+
+$cdnurl: "{{ site.cdnurl }}";
+
+$max-page-width: 65rem;
+
+$screen-width-s: 20rem;
+$screen-width-m: 32rem;
+$screen-width-l: 50rem;
+
+@import "reset.scss";
+@import "colors.scss";
+@import "fonts.scss";
+@import "typography.scss";
+@import "general.scss";
+
+@import "layout/header.scss";
+@import "layout/social.scss";
+@import "layout/footer.scss";
+
+@import "components/blockquote.scss";
+@import "components/button.scss";
+@import "components/pagehead.scss";
+@import "components/social-button.scss";
+
+@import "pages/home.scss";
+@import "pages/cv.scss";
