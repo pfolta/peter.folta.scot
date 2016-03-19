@@ -6,16 +6,12 @@
 
 .button {
     border: 0.125em $color-theme-2 solid;
-    -webkit-border-radius: 0.3125em;
-    -moz-border-radius: 0.3125em;
-    border-radius: 0.3125em;
 
     display: inline-block;
+    padding: 0.75em 1.5em;
+    width: 100%;
 
     color: $color-theme-2;
-
-    padding: 0.5em 1em;
-
     text-decoration: none;
 
     -webkit-transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
@@ -28,4 +24,10 @@
 .button:hover {
     background-color: $color-theme-2;
     color: $color-main-background;
+}
+
+@media only screen and (min-width: $screen-width-m) {
+    .button {
+        width: auto;
+    }
 }
