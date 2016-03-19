@@ -12,4 +12,9 @@ before_script:
 
 script:
   - jekyll build
-  - htmlproofer ./_site
+  - htmlproofer ./_site --disable-external
+
+env:
+  global:
+    # speeds up installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
