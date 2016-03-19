@@ -14,7 +14,7 @@
     width: 2rem;
     height: 2rem;
 
-    padding-top: 0.5rem;
+    padding-top: 0.4rem;
 
     -webkit-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
     -moz-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
@@ -36,7 +36,6 @@
 
     i {
         color: $color-main-background;
-        transform: scale(1.5);
     }
 }
 
@@ -46,8 +45,6 @@
 
         width: 2rem;
         height: 2rem;
-
-        padding-top: 0.5rem;
     }
 }
 
@@ -59,8 +56,6 @@
 
         width: 2rem;
         height: 2rem;
-
-        padding-top: 0.5rem;
     }
 }
 
