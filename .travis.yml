@@ -6,5 +6,8 @@ install:
   - gem install yui-compressor
   - gem install htmlcompressor
 
+before_script:
+  - cp _config.yml.sample _config.yml
+
 script:
   - jekyll build
