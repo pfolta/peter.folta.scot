@@ -1,5 +1,26 @@
 @charset "utf-8";
 
 .photography {
+    #platforms {
+        .find-me-on {
+            display: none;
+        }
 
+        @media only screen and (min-width: $screen-width-m) {
+            .find-me-on {
+                display: inline;
+            }
+        }
+        
+        a {
+            border-bottom: 0.0625em dotted;
+            color: $color-grey-1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border-bottom: 0.0625em solid;
+            color: $color-main-foreground;
+        }
+    }
 }
