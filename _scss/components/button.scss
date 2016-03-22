@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.button {
+.btn {
     border: 0.125em $color-theme-2 solid;
 
     display: inline-block;
@@ -21,13 +21,13 @@
     transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
 }
 
-.button:hover {
+.btn:hover {
     background-color: $color-theme-2;
     color: $color-main-background;
 }
 
 @media only screen and (min-width: $screen-width-m) {
-    .button {
+    .btn {
         width: auto;
     }
 }
