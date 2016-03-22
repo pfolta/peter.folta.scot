@@ -12,7 +12,10 @@
     width: 100%;
 
     color: $color-theme-2;
+
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
 
     -webkit-transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
     -moz-transition: color 150ms ease-in-out, background-color 150ms ease-in-out;
@@ -24,6 +27,14 @@
 .btn:hover {
     background-color: $color-theme-2;
     color: $color-main-background;
+}
+
+.btn-disabled,
+.btn-disabled:hover {
+    border-color: $color-grey-1;
+
+    color: $color-grey-1;
+    background-color: $color-main-background;
 }
 
 @media only screen and (min-width: $screen-width-m) {
