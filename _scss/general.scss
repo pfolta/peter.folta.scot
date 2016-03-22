@@ -65,9 +65,11 @@ main {
     overflow: hidden;
 }
 
-.wrapper {
-    padding-left: calc(50% - (#{$max-page-width})/2);
-    padding-right: calc(50% - (#{$max-page-width})/2);
+@media only screen and (min-width: $max-page-width) {
+    .wrapper {
+        padding-left: calc(50vw - #{$max-page-width / 2.4});
+        padding-right: calc(50vw - #{$max-page-width / 2.4});
+    }
 }
 
 .flex-img {
