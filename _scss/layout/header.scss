@@ -17,6 +17,8 @@
 
     .logo {
         a {
+            display: block;
+
             svg {
                 fill: $color-main-background;
 
@@ -107,6 +109,12 @@
     }
 
     @media only screen and (min-width: $screen-width-s) {
+        .logo {
+            a {
+                display: inline;
+            }
+        }
+        
         .navigation {
             ul {
                 display: block;
