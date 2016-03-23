@@ -9,7 +9,8 @@ url:                    "http://www.peterfolta.net"
 baseurl:                ""
 cdnurl:                 "http://cdn.peterfolta.net/static/peterfolta.net"
 
-repositoryurl:          "https://github.com/pfolta/peterfolta.net"
+repository-url:         "https://github.com/pfolta/peterfolta.net"
+repository-src:         "https://github.com/pfolta/peterfolta.net.git"
 
 social-facebook:        "https://www.facebook.com/pfolta"
 social-twitter:         "https://twitter.com/pfoltaUK"
