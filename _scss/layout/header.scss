@@ -160,6 +160,9 @@
                 -ms-flex: 1;
                 flex: 1;
 
+                -webkit-box-pack: justify;
+                -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
                 justify-content: space-between;
 
                 li {
@@ -192,6 +195,8 @@
         }
 
         .navigation {
+            flex-grow: 1;
+
             -webkit-box-align: center;
             -webkit-align-items: center;
             -ms-flex-align: center;
@@ -199,6 +204,11 @@
             align-items: center;
 
             ul {
+                -webkit-box-pack: end;
+                -webkit-justify-content: flex-end;
+                -ms-flex-pack: end;
+                justify-content: flex-end;
+
                 li {
                     padding: 0 0.5rem;
                 }
