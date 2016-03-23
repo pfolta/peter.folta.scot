@@ -18,6 +18,9 @@
     .logo {
         a {
             display: block;
+            max-width: 12.881rem;
+
+            margin: 0 auto;
 
             svg {
                 fill: $color-main-background;
@@ -27,8 +30,6 @@
                 width: auto;
                 min-width: 1rem;
                 max-width: 12.881rem;
-
-                margin: 0 auto;
 
                 -webkit-transition: fill 150ms ease-in-out;
                 -moz-transition: fill 150ms ease-in-out;
@@ -109,12 +110,6 @@
     }
 
     @media only screen and (min-width: $screen-width-s) {
-        .logo {
-            a {
-                display: inline;
-            }
-        }
-        
         .navigation {
             ul {
                 display: block;
