@@ -12,9 +12,14 @@ $screen-width-m: 32rem;
 $screen-width-l: 50rem;
 
 @import "reset.scss";
-@import "colors.scss";
-@import "fonts.scss";
 @import "typography.scss";
+
+@import "base/box-sizing.scss";
+@import "base/colors.scss";
+@import "base/fonts.scss";
+@import "base/selection.scss";
+@import "base/viewport.scss";
+
 @import "general.scss";
 
 @import "layout/header.scss";
