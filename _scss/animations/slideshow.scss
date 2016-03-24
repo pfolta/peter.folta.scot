@@ -1,11 +1,36 @@
 @charset "utf-8";
 
+/*
+ * Image Slideshow Formula
+ * Source: http://css3.bradshawenterprises.com/cfimg/
+ *
+ * n - Number of Images
+ * a - Presentation Time per Image
+ * b - Cross Fading Duration
+ * t - Total Animation Duration, t = (a + b) * n
+ *
+ * Animation Delay = t / n = a + b
+ *
+ * Keyframe Percentages
+ * 1. 0%
+ * 2. a / t * 100%
+ * 3. (a + b) / t * 100% = 1 / n * 100%
+ * 4. 100% - (b / t * 100%)
+ * 5. 100%
+ *
+ * Settings
+ * n = 5
+ * a = 4s = 4000ms
+ * b = 1s = 1000ms
+ * t = 25s = 25000ms
+ */
+
 @-webkit-keyframes slideshow {
     0% {
         opacity: 1;
         visibility: visible;
     }
-    18% {
+    16% {
         opacity: 1;
         visibility: visible;
     }
@@ -13,7 +38,7 @@
         opacity: 0;
         visibility: hidden;
     }
-    98% {
+    96% {
         opacity: 0;
         visibility: hidden;
     }
@@ -28,7 +53,7 @@
         opacity: 1;
         visibility: visible;
     }
-    18% {
+    16% {
         opacity: 1;
         visibility: visible;
     }
@@ -36,7 +61,7 @@
         opacity: 0;
         visibility: hidden;
     }
-    98% {
+    96% {
         opacity: 0;
         visibility: hidden;
     }
@@ -51,7 +76,7 @@
         opacity: 1;
         visibility: visible;
     }
-    18% {
+    16% {
         opacity: 1;
         visibility: visible;
     }
@@ -59,7 +84,7 @@
         opacity: 0;
         visibility: hidden;
     }
-    98% {
+    96% {
         opacity: 0;
         visibility: hidden;
     }
@@ -74,7 +99,7 @@
         opacity: 1;
         visibility: visible;
     }
-    18% {
+    16% {
         opacity: 1;
         visibility: visible;
     }
@@ -82,7 +107,7 @@
         opacity: 0;
         visibility: hidden;
     }
-    98% {
+    96% {
         opacity: 0;
         visibility: hidden;
     }
@@ -97,7 +122,7 @@
         opacity: 1;
         visibility: visible;
     }
-    18% {
+    16% {
         opacity: 1;
         visibility: visible;
     }
@@ -105,7 +130,7 @@
         opacity: 0;
         visibility: hidden;
     }
-    98% {
+    96% {
         opacity: 0;
         visibility: hidden;
     }
@@ -125,9 +150,9 @@
         bottom: 0;
         left: 0;
 
-        -webkit-animation: slideshow 27500ms linear;
-        -o-animation: slideshow 27500ms linear;
-        animation: slideshow 27500ms linear;
+        -webkit-animation: slideshow 25000ms linear;
+        -o-animation: slideshow 25000ms linear;
+        animation: slideshow 25000ms linear;
 
         -webkit-animation-iteration-count: infinite;
         -moz-animation-iteration-count: infinite;
@@ -138,31 +163,31 @@
     img:first-child {
         position: static;
 
-        -webkit-animation-delay: 22000ms;
-        -moz-animation-delay: 22000ms;
-        -o-animation-delay: 22000ms;
-        animation-delay: 22000ms;
+        -webkit-animation-delay: 20000ms;
+        -moz-animation-delay: 20000ms;
+        -o-animation-delay: 20000ms;
+        animation-delay: 20000ms;
     }
 
     img:nth-child(2) {
-        -webkit-animation-delay: 16500ms;
-        -moz-animation-delay: 16500ms;
-        -o-animation-delay: 16500ms;
-        animation-delay: 16500ms;
+        -webkit-animation-delay: 15000ms;
+        -moz-animation-delay: 15000ms;
+        -o-animation-delay: 15000ms;
+        animation-delay: 15000ms;
     }
 
     img:nth-child(3) {
-        -webkit-animation-delay: 11000ms;
-        -moz-animation-delay: 11000ms;
-        -o-animation-delay: 11000ms;
-        animation-delay: 11000ms;
+        -webkit-animation-delay: 10000ms;
+        -moz-animation-delay: 1000ms;
+        -o-animation-delay: 10000ms;
+        animation-delay: 10000ms;
     }
 
     img:nth-child(4) {
-        -webkit-animation-delay: 5500ms;
-        -moz-animation-delay: 5500ms;
-        -o-animation-delay: 5500ms;
-        animation-delay: 5500ms;
+        -webkit-animation-delay: 5000ms;
+        -moz-animation-delay: 5000ms;
+        -o-animation-delay: 5000ms;
+        animation-delay: 5000ms;
     }
 
     img:nth-child(5) {
