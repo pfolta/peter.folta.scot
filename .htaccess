@@ -1,18 +1,23 @@
 DirectoryIndex index.html
 
+# Set Content-Security-Policy Header
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "default-src 'self' https://cdn.peterfolta.net http://placehold.it https://placeholdit.imgix.net"
+</IfModule>
+
 # Leverage Browser Caching
 <IfModule mod_expires.c>
-        ExpiresActive On
+    ExpiresActive On
 
-        <FilesMatch "\.(htm|html)$">
-                ExpiresActive Off
-                Header set Expires: "-1"
-                Header set Cache-Control: "max-age=0"
-        </FilesMatch>
+    <FilesMatch "\.(htm|html)$">
+        ExpiresActive Off
+        Header set Expires: "-1"
+        Header set Cache-Control: "max-age=0"
+    </FilesMatch>
 
-        ExpiresByType image/jpeg A2592000
-        ExpiresByType image/png A2592000
-        ExpiresByType image/vnd.microsoft.icon A2592000
-        ExpiresByType text/css A2592000
-        ExpiresByType text/javascript A2592000
+    ExpiresByType image/jpeg A2592000
+    ExpiresByType image/png A2592000
+    ExpiresByType image/vnd.microsoft.icon A2592000
+    ExpiresByType text/css A2592000
+    ExpiresByType text/javascript A2592000
 </IfModule>
