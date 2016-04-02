@@ -2,7 +2,7 @@ DirectoryIndex index.html
 
 # Set Content-Security-Policy Header
 <IfModule mod_headers.c>
-    Header always set Content-Security-Policy "default-src 'self' https://cdn.peterfolta.net https://placehold.it https://placeholdit.imgix.net"
+    Header always set Content-Security-Policy "default-src 'self' https://cdn.peterfolta.net https://placehold.it https://placeholdit.imgix.net; report-uri https://pfolta.report-uri.io/r/default/csp/enforce"
 </IfModule>
 
 # Leverage Browser Caching
