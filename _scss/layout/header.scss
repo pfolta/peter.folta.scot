@@ -37,7 +37,7 @@
                 -o-transition: fill 150ms ease-in-out;
                 transition: fill 150ms ease-in-out;
 
-                #circle {
+                path:nth-child(2) {
                     stroke: $color-main-background;
 
                     -webkit-transition: stroke 150ms ease-in-out;
@@ -53,7 +53,7 @@
             svg {
                 fill: $color-theme-4;
 
-                #circle {
+                path:nth-child(2) {
                     stroke: $color-theme-4;
                 }
             }
