@@ -34,7 +34,7 @@
     border-color: $color-gray-1;
 
     color: $color-gray-1;
-    background-color: $color-main-background;
+    background-color: inherit;
 }
 
 @media only screen and (min-width: $screen-width-m) {
