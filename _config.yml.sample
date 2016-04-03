@@ -23,6 +23,9 @@ social-linkedin:        "https://www.linkedin.com/in/peterfolta"
 social-500px:           "https://500px.com/pfolta"
 social-instagram:       "https://www.instagram.com/pfolta/"
 
+include:
+    - .well-known
+
 exclude:
     - .gitignore
     - LICENSE
