@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.link {
+    border-bottom: 0.125em solid $color-gray-3;
+    color: $color-theme-2;
+    text-decoration: none;
+}
+
+.link:hover{
+    border-bottom-color: $color-gray-1;
+}

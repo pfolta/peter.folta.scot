@@ -1,6 +1,16 @@
 @charset "utf-8";
 
 .photography {
+    #gear {
+        .media-object {
+            svg {
+                fill: $color-gray-1;
+
+                width: 3rem;
+            }
+        }
+    }
+
     #platforms {
         .find-me-on {
             display: none;

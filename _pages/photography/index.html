@@ -18,7 +18,7 @@ title: Photography
         <figure class="push-0">
             <img src="{{ site.baseurl }}/images/photography/lightroom.jpg" alt="Placeholder" class="flex-img">
         </figure>
-        <div class="description island">
+        <div class="description gutter">
             <div class="text text-center">
                 <h2>Editing</h2>
                 <p class="push-0">
@@ -28,16 +28,36 @@ title: Photography
         </div>
     </section>
 
-    <section class="section-grid wrapper push-2">
+    <section id="gear" class="section-grid wrapper push-2">
         <figure class="push-0">
-            <img src="https://placehold.it/1920x1080" alt="Placeholder" class="flex-img">
+            <img src="https://placehold.it/1600x900" alt="Placeholder" class="flex-img">
         </figure>
-        <div class="description island">
-            <div class="text text-center">
-                <h2>My Gear</h2>
-                <p class=push-0>
-                    bla bla bla
-                </p>
+        <div class="description gutter">
+            <div class="text">
+                <h2 class="text-center">My Gear</h2>
+                <div id="camera" class="media-object">
+                    {% include svg/photography/gear-camera.svg %}
+                    <ul class="list">
+                        <li>Canon EOS 700D</li>
+                        <li>SIGMA DP1s</li>
+                        <li>Apple iPhone 5</li>
+                    </ul>
+                </div>
+                <div id="lens" class="media-object">
+                    {% include svg/photography/gear-lens.svg %}
+                    <ul class="list">
+                        <li>Canon EF 24-70mm f/4 L IS USM</li>
+                        <li>Canon EF 70-200mm f/4.0 L IS USM</li>
+                        <li>Canon EF-S 10-18mm f/4.5-5.6 IS STM</li>
+                    </ul>
+                </div>
+                <div class="media-object">
+                    {% include svg/photography/gear-accessories.svg %}
+                    <ul class="list">
+                        <li>VANGUARD Alta Pro 263AB 100 Tripod with SBH-100</li>
+                        <li>Phottix Aion Wireless Timer Remote for Canon</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

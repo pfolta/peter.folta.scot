@@ -9,6 +9,8 @@ url:                    "https://peterfolta.net"
 baseurl:                ""
 cdnurl:                 "https://cdn.peterfolta.net/static/peterfolta.net"
 
+email:                  "mail@peterfolta.net"
+
 repository-url:         "https://github.com/pfolta/peterfolta.net"
 repository-src:         "https://github.com/pfolta/peterfolta.net.git"
 
@@ -22,6 +24,8 @@ social-stackexchange:   "http://stackexchange.com/users/3834287/pfolta"
 social-linkedin:        "https://www.linkedin.com/in/peterfolta"
 social-500px:           "https://500px.com/pfolta"
 social-instagram:       "https://www.instagram.com/pfolta/"
+
+social-keybase:         "https://keybase.io/pfolta"
 
 include:
     - .well-known
