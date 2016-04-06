@@ -2,10 +2,13 @@
 
 a {
     color: $color-theme-2;
+}
+
+.link {
     border-bottom: 0.125em solid $color-gray-3;
     text-decoration: none;
 }
 
-a:hover{
+.link:hover{
     border-bottom-color: $color-gray-1;
 }
