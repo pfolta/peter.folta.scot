@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+.section-grid {
+    .description {
+        @extend .island;
+    }
+}
+
 @media only screen and (min-width: $screen-width-l) {
     .section-grid {
         display: -webkit-box;
@@ -14,6 +20,9 @@
         }
 
         .description {
+            padding-top: 0;
+            padding-bottom: 0;
+
             display: -webkit-box;
             display: -webkit-flex;
             display: -ms-flexbox;
