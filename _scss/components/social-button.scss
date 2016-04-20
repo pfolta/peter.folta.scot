@@ -16,18 +16,18 @@
 
     padding-top: 0.4rem;
 
-    -webkit-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
-    -moz-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
-    -ms-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
-    -o-transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
-    transition: background-color 150ms ease-in-out, border-color 150ms ease-in-out, color 150ms ease-in-out;
+    -webkit-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+    -moz-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+    -ms-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+    -o-transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out, border-color 250ms ease-in-out, color 250ms ease-in-out;
 
     i {
-        -webkit-transition: transform 150ms ease-in-out;
-        -moz-transition: transform 150ms ease-in-out;
-        -ms-transition: transform 150ms ease-in-out;
-        -o-transition: transform 150ms ease-in-out;
-        transition: transform 150ms ease-in-out;
+        -webkit-transition: color 250ms ease-in-out;
+        -moz-transition: color 250ms ease-in-out;
+        -ms-transition: color 250ms ease-in-out;
+        -o-transition: color 250ms ease-in-out;
+        transition: color 250ms ease-in-out;
     }
 }
 
