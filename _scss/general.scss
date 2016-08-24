@@ -17,6 +17,10 @@ body {
 main {
     background-color: $color-main-background;
     display: block;
+
+    @media only screen and (min-width: $screen-width-l) {
+        padding-top: 3.863125rem;
+    }
 }
 
 .clearfix {
