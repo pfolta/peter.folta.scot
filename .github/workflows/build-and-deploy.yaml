@@ -1,0 +1,23 @@
+name: "Build and Deploy"
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  deploy:
+    name: "🚀 Deploy"
+    if: "github.ref == 'refs/heads/master'"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Check out source code"
+        uses: "actions/checkout@v4"
+
+      - name: "Deploy to GitHub Pages"
+        uses: "JamesIves/github-pages-deploy-action@v4"
+        with:
+          branch: "gh-pages"
+          clean: true
+          folder: "."
