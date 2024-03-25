@@ -1,9 +1,9 @@
 2:I[7831,[],""]
 3:I[6911,["712","static/chunks/712-4171a37d68a06966.js","931","static/chunks/app/page-1529e5982406359c.js"],""]
-4:I[8243,["712","static/chunks/712-4171a37d68a06966.js","185","static/chunks/app/layout-e04d620d6bf55add.js"],""]
+4:I[8243,["712","static/chunks/712-4171a37d68a06966.js","185","static/chunks/app/layout-b9b490ecd6e169bc.js"],""]
 5:I[5613,[],""]
 6:I[1778,[],""]
-0:["gscJ40BOD-YtSyk7RDcHh",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","$L2",null,{"propsForComponent":{"params":{}},"Component":"$3","isStaticGeneration":true}],null]]},[null,["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L7","notFoundStyles":[],"styles":null}]}]}]}],null]],[null,"$L8"]]]]
+0:["0Ok-1jhHpyuROVwW38-KK",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","$L2",null,{"propsForComponent":{"params":{}},"Component":"$3","isStaticGeneration":true}],null]]},[null,["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L7","notFoundStyles":[],"styles":null}]}]}]}],null]],[null,"$L8"]]]]
 7:E{"digest":"NEXT_REDIRECT;replace;/;307;"}
 8:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Peter Folta"}],["$","meta","3",{"name":"description","content":"Peter Folta's personal website."}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 1:null
