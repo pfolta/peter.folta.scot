@@ -6,8 +6,34 @@ on:
       - "master"
 
 jobs:
+  build:
+    name: "🔨 Build"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Check out source code"
+        uses: "actions/checkout@v4"
+
+      - name: "Set up Node.js"
+        uses: "actions/setup-node@v4"
+        with:
+          node-version: "18.x"
+
+      - name: "Install dependencies"
+        run: "npm ci --verbose"
+
+      - name: "Run release script"
+        run: "npm run release"
+
+      - name: "Upload website artifact"
+        uses: "actions/upload-artifact@v4"
+        with:
+          name: "website"
+          path: "out"
+
   deploy:
     name: "🚀 Deploy"
+    needs: "build"
     if: "github.ref == 'refs/heads/master'"
     runs-on: "ubuntu-latest"
 
@@ -15,9 +41,15 @@ jobs:
       - name: "Check out source code"
         uses: "actions/checkout@v4"
 
+      - name: "Download website artifact"
+        uses: "actions/download-artifact@v4"
+        with:
+          name: "website"
+          path: "out"
+
       - name: "Deploy to GitHub Pages"
         uses: "JamesIves/github-pages-deploy-action@v4"
         with:
           branch: "gh-pages"
           clean: true
-          folder: "."
+          folder: "out"

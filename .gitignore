@@ -1,0 +1,10 @@
+# NextJS Build
+/.next
+/out
+
+# NPM
+/node_modules
+npm-debug.log*
+
+# macOS
+.DS_Store
