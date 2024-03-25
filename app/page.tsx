@@ -1,3 +1,12 @@
+"use client";
+
+import styled from "styled-components";
+
+const Explanation = styled.p`
+  color: #aaaaaa;
+  font-style: italic;
+`;
+
 export default function Home() {
   return (
     <main>
@@ -7,7 +16,7 @@ export default function Home() {
 
       <p>Automatically deployed using GitHub Actions.</p>
 
-      <p>First version built using NextJS.</p>
+      <Explanation>First version built using NextJS.</Explanation>
     </main>
   );
 }
