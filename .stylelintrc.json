@@ -1,0 +1,8 @@
+{
+    "customSyntax": "postcss-styled-syntax",
+    "extends": ["stylelint-config-recommended"],
+    "rules": {
+        "length-zero-no-unit": true,
+        "shorthand-property-no-redundant-values": true
+    }
+}

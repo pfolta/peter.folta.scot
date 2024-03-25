@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-import packageInfo from "@/package.json";
 import StyledComponentsRegistry from "@/lib/styled-components-registry";
+import packageInfo from "@/package.json";
 
 export const metadata: Metadata = {
     title: "Peter Folta",
