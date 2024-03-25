@@ -1,26 +1,30 @@
 {
-  "name": "peter.folta.scot",
-  "version": "1.0.0",
-  "description": "Peter Folta's personal website.",
-  "homepage": "https://peter.folta.scot",
-  "private": true,
-  "scripts": {
-    "lint": "next lint",
-    "release": "next build",
-    "start": "next dev"
-  },
-  "dependencies": {
-    "next": "^14.1.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.1.8"
-  },
-  "devDependencies": {
-    "@types/node": "20.11.30",
-    "@types/react": "^18.2.70",
-    "@types/react-dom": "^18.2.22",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.1.4",
-    "typescript": "^5.3.3"
-  }
+    "name": "peter.folta.scot",
+    "version": "1.0.0",
+    "description": "Peter Folta's personal website.",
+    "homepage": "https://peter.folta.scot",
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "lint": "prettier --check . && next lint",
+        "lint:fix": "prettier --write .",
+        "release": "npm run lint && npm run build",
+        "start": "next dev"
+    },
+    "dependencies": {
+        "next": "^14.1.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "styled-components": "^6.1.8"
+    },
+    "devDependencies": {
+        "@types/node": "20.11.30",
+        "@types/react": "^18.2.70",
+        "@types/react-dom": "^18.2.22",
+        "eslint": "^8.57.0",
+        "eslint-config-next": "^14.1.4",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.2.5",
+        "typescript": "^5.3.3"
+    }
 }
