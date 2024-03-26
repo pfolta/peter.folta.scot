@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
+import { ReactNode } from "react";
 
-import StyledComponentsRegistry from "@/lib/styled-components-registry";
 import packageInfo from "@/package.json";
-import GlobalStyle from "@/styles/global";
+import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
     title: "Peter Folta",
     description: packageInfo.description
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+interface LayoutProps {
+    children?: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
     return (
         <html lang="en">
             <body>
@@ -20,4 +24,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </body>
         </html>
     );
-}
+};
+
+export default Layout;
+export { metadata };

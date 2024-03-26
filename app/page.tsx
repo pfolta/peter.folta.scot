@@ -9,7 +9,7 @@ const Explanation = styled.p`
     font-style: italic;
 `;
 
-export default function Home() {
+const Home = () => {
     return (
         <main>
             <h1>Peter Folta</h1>
@@ -39,4 +39,6 @@ export default function Home() {
             ))}
         </main>
     );
-}
+};
+
+export default Home;

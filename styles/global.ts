@@ -1,14 +1,13 @@
 "use client";
 
-import { Inter } from "next/font/google";
 import { createGlobalStyle } from "styled-components";
 
-const inter = Inter({
-    subsets: ["latin"]
-});
+import { InterFont } from "@/styles";
 
-export default createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     html {
-        ${inter.style};
+        ${InterFont.style};
     }
 `;
+
+export default GlobalStyle;

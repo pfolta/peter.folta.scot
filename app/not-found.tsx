@@ -1,5 +1,7 @@
 import { redirect } from "next/navigation";
 
-export default function NotFound() {
+const NotFound = () => {
     redirect("/");
-}
+};
+
+export default NotFound;
