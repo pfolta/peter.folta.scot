@@ -1,12 +1,11 @@
 "use client";
 
+import "inter-ui/inter.css";
 import { createGlobalStyle } from "styled-components";
-
-import { InterFont } from "@/styles";
 
 const GlobalStyle = createGlobalStyle`
     html {
-        ${InterFont.style};
+        font-family: "Inter", "system-ui", sans-serif;
     }
 `;
 
