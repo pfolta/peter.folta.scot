@@ -9,7 +9,7 @@ const A = styled.a`
 
     &::after {
         content: "→";
-        padding-left: 0.25rem;
+        padding-left: 0.5rem;
         position: absolute;
         transition: padding 0.15s ease-in-out;
     }
@@ -19,7 +19,7 @@ const A = styled.a`
 
         @media (prefers-reduced-motion: no-preference) {
             &::after {
-                padding-left: 0.5rem;
+                padding-left: 1rem;
             }
         }
     }
@@ -31,7 +31,7 @@ const A = styled.a`
 `;
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-    margin-right: 0.25rem;
+    margin-right: 0.5rem;
 
     height: 1rem;
     width: 1rem;
