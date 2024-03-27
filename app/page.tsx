@@ -2,7 +2,8 @@
 
 import styled from "styled-components";
 
-import profiles from "@/resources/profiles.json";
+import { Link } from "@/components";
+import profiles from "@/resources/profiles";
 
 const Explanation = styled.p`
     color: #aaaaaa;
@@ -29,9 +30,9 @@ const Home = () => {
                     <ul>
                         {group.links.map((link) => (
                             <li key={link.id}>
-                                <a href={link.url} target="_blank">
+                                <Link href={link.url} target="_blank" icon={link.icon}>
                                     {link.name}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
