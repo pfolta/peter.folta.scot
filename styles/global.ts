@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
         box-sizing: border-box;
     }
+
+    input, button, textarea, select {
+        font: inherit;
+    }
 `;
 
 export default GlobalStyle;
