@@ -2,6 +2,7 @@
     "name": "peter.folta.scot",
     "version": "1.0.0",
     "description": "Peter Folta's personal website.",
+    "copyright": "© 2024 Peter Folta. All rights reserved.",
     "homepage": "https://peter.folta.scot",
     "private": true,
     "scripts": {

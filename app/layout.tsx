@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 
+import { Footer } from "@/components";
 import packageInfo from "@/package.json";
 import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
@@ -19,6 +20,7 @@ const Layout = ({ children }: LayoutProps) => (
             <StyledComponentsRegistry>
                 <GlobalStyle />
                 {children}
+                <Footer />
             </StyledComponentsRegistry>
         </body>
     </html>
