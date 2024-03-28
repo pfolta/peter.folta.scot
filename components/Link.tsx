@@ -31,6 +31,13 @@ const A = styled.a`
 const IconWrapper = styled.span`
     margin-right: 0.5rem;
     vertical-align: -0.125em;
+
+    svg {
+        height: 1em;
+        width: 1em;
+        stroke: currentColor;
+        fill: currentColor;
+    }
 `;
 
 interface LinkProps {

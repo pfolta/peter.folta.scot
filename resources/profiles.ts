@@ -22,6 +22,8 @@ import {
 } from "react-icons/fa6";
 import { SiDuolingo } from "react-icons/si";
 
+import Jetpunk from "@/resources/Jetpunk";
+
 const profiles = [
     {
         id: "code",
@@ -152,7 +154,8 @@ const profiles = [
             },
             {
                 name: "JetPunk",
-                url: "https://www.jetpunk.com/users/pfolta"
+                url: "https://www.jetpunk.com/users/pfolta",
+                icon: Jetpunk
             }
         ]
     }
