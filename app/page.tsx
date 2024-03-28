@@ -10,6 +10,10 @@ const Explanation = styled.p`
     font-style: italic;
 `;
 
+const StyledLink = styled(Link)`
+    display: block;
+`;
+
 const Home = () => {
     return (
         <main>
@@ -27,15 +31,11 @@ const Home = () => {
                 <section key={group.id}>
                     <h3>{group.name}</h3>
 
-                    <ul>
-                        {group.links.map((link) => (
-                            <li key={link.id}>
-                                <Link href={link.url} target="_blank" icon={link.icon}>
-                                    {link.name}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
+                    {group.links.map((link) => (
+                        <StyledLink key={link.url} href={link.url} target="_blank" icon={link.icon}>
+                            {link.name}
+                        </StyledLink>
+                    ))}
                 </section>
             ))}
         </main>

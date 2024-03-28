@@ -1,68 +1,51 @@
 import {
-    IconDefinition,
-    fa500px,
-    faFacebookSquare,
-    faFlickr,
-    faFoursquare,
-    faGithub,
-    faHackerNews,
-    faHackerrank,
-    faInstagram,
-    faLinkedin,
-    faNpm,
-    faPinterest,
-    faReddit,
-    faStackExchange,
-    faSteamSquare,
-    faThreads,
-    faTiktok,
-    faTumblrSquare,
-    faUnsplash,
-    faXTwitter,
-    faXing
-} from "@fortawesome/free-brands-svg-icons";
+    Fa500Px,
+    FaFlickr,
+    FaFoursquare,
+    FaGithub,
+    FaHackerNews,
+    FaHackerrank,
+    FaInstagram,
+    FaLinkedin,
+    FaNpm,
+    FaPinterest,
+    FaRedditAlien,
+    FaSquareFacebook,
+    FaSquareTumblr,
+    FaStackExchange,
+    FaSteam,
+    FaThreads,
+    FaTiktok,
+    FaUnsplash,
+    FaXTwitter,
+    FaXing
+} from "react-icons/fa6";
+import { SiDuolingo } from "react-icons/si";
 
-interface Link {
-    id: string;
-    name: string;
-    url: string;
-    icon?: IconDefinition;
-}
-
-interface Profile {
-    id: string;
-    name: string;
-    links: Link[];
-}
-
-const profiles: Profile[] = [
+const profiles = [
     {
         id: "code",
         name: "Code & Collaboration",
         links: [
             {
-                id: "github",
                 name: "GitHub",
-                icon: faGithub,
+                icon: FaGithub,
                 url: "https://github.com/pfolta"
             },
             {
-                id: "npm",
-                name: "NPM (Node.js)",
+                name: "NPM",
                 url: "https://www.npmjs.com/~pfolta",
-                icon: faNpm
+                icon: FaNpm
             },
             {
-                id: "hackerrank",
                 name: "HackerRank",
                 url: "https://www.hackerrank.com/profile/pfolta",
-                icon: faHackerrank
+                icon: FaHackerrank
             },
             {
-                id: "stackexchange",
-                name: "Stack Overflow/Stack Exchange",
+                name: "Stack Exchange",
                 url: "http://stackexchange.com/users/3834287/pfolta",
-                icon: faStackExchange
+                icon: FaStackExchange
             }
         ]
     },
@@ -71,76 +54,64 @@ const profiles: Profile[] = [
         name: "Social Media",
         links: [
             {
-                id: "facebook",
                 name: "Facebook",
-                icon: faFacebookSquare,
+                icon: FaSquareFacebook,
                 url: "https://www.facebook.com/pfolta"
             },
             {
-                id: "twitter",
                 name: "Twitter",
                 url: "https://twitter.com/pfoltaUK",
-                icon: faXTwitter
+                icon: FaXTwitter
             },
             {
-                id: "linkedin",
                 name: "LinkedIn",
                 url: "https://www.linkedin.com/in/peterfolta/",
-                icon: faLinkedin
+                icon: FaLinkedin
             },
             {
-                id: "xing",
                 name: "Xing",
                 url: "https://www.xing.com/profile/Peter_Folta",
-                icon: faXing
+                icon: FaXing
             },
             {
-                id: "instagram",
                 name: "Instagram",
                 url: "https://www.instagram.com/pfolta",
-                icon: faInstagram
+                icon: FaInstagram
             },
             {
-                id: "threads",
                 name: "Threads",
                 url: "https://www.threads.net/@pfolta",
-                icon: faThreads
+                icon: FaThreads
             },
             {
-                id: "tiktok",
                 name: "TikTok",
-                icon: faTiktok,
+                icon: FaTiktok,
                 url: "https://www.tiktok.com/@pfolta"
             },
             {
-                id: "pinterest",
                 name: "Pinterest",
                 url: "https://www.pinterest.com/pfolta/",
-                icon: faPinterest
+                icon: FaPinterest
             },
             {
-                id: "reddit",
                 name: "Reddit",
                 url: "https://www.reddit.com/user/pfolta/",
-                icon: faReddit
+                icon: FaRedditAlien
             },
             {
-                id: "hackernews",
                 name: "Hacker News",
                 url: "https://news.ycombinator.com/user?id=pfolta",
-                icon: faHackerNews
+                icon: FaHackerNews
             },
             {
-                id: "tumblr",
                 name: "Tumblr",
                 url: "https://www.tumblr.com/pfolta",
-                icon: faTumblrSquare
+                icon: FaSquareTumblr
             },
             {
-                id: "foursquare",
                 name: "Foursquare",
                 url: "https://foursquare.com/peterf9657841",
-                icon: faFoursquare
+                icon: FaFoursquare
             }
         ]
     },
@@ -149,22 +120,19 @@ const profiles: Profile[] = [
         name: "Photography",
         links: [
             {
-                id: "500px",
                 name: "500px",
                 url: "https://500px.com/p/pfolta?view=photos",
-                icon: fa500px
+                icon: Fa500Px
             },
             {
-                id: "unsplash",
                 name: "Unsplash",
                 url: "https://unsplash.com/@pfolta",
-                icon: faUnsplash
+                icon: FaUnsplash
             },
             {
-                id: "flickr",
                 name: "Flickr",
                 url: "https://www.flickr.com/photos/pfolta",
-                icon: faFlickr
+                icon: FaFlickr
             }
         ]
     },
@@ -173,18 +141,16 @@ const profiles: Profile[] = [
         name: "Gaming",
         links: [
             {
-                id: "steam",
                 name: "Steam",
                 url: "https://steamcommunity.com/id/pfolta/",
-                icon: faSteamSquare
+                icon: FaSteam
             },
             {
-                id: "duolingo",
                 name: "Duolingo",
-                url: "https://www.duolingo.com/profile/peterfolta"
+                url: "https://www.duolingo.com/profile/peterfolta",
+                icon: SiDuolingo
             },
             {
-                id: "jetpunk",
                 name: "JetPunk",
                 url: "https://www.jetpunk.com/users/pfolta"
             }

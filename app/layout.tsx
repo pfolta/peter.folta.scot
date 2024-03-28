@@ -13,18 +13,16 @@ interface LayoutProps {
     children?: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
-    return (
-        <html lang="en">
-            <body>
-                <StyledComponentsRegistry>
-                    <GlobalStyle />
-                    {children}
-                </StyledComponentsRegistry>
-            </body>
-        </html>
-    );
-};
+const Layout = ({ children }: LayoutProps) => (
+    <html lang="en">
+        <body>
+            <StyledComponentsRegistry>
+                <GlobalStyle />
+                {children}
+            </StyledComponentsRegistry>
+        </body>
+    </html>
+);
 
 export default Layout;
 export { metadata };

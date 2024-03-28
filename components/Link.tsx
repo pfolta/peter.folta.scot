@@ -1,6 +1,7 @@
-import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+"use client";
+
 import { ReactNode } from "react";
+import { IconType } from "react-icons";
 import styled from "styled-components";
 
 const A = styled.a`
@@ -14,7 +15,9 @@ const A = styled.a`
         transition: padding 0.15s ease-in-out;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
+        outline: none;
         text-decoration: underline;
 
         @media (prefers-reduced-motion: no-preference) {
@@ -23,35 +26,31 @@ const A = styled.a`
             }
         }
     }
-
-    &:focus {
-        outline: none;
-        text-decoration: underline;
-    }
 `;
 
-const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+const IconWrapper = styled.span`
     margin-right: 0.5rem;
-
-    height: 1rem;
-    width: 1rem;
     vertical-align: -0.125em;
 `;
 
 interface LinkProps {
     children?: ReactNode;
+    className?: string;
+    icon?: IconType;
     href?: string;
     target: string;
-    icon?: IconDefinition;
 }
 
-const Link = ({ children, href, target, icon }: LinkProps) => {
-    return (
-        <A href={href} target={target}>
-            {icon && <StyledFontAwesomeIcon icon={icon} />}
-            {children}
-        </A>
-    );
-};
+const Link = ({ children, className, href, target, ...props }: LinkProps) => (
+    <A href={href} target={target} className={className}>
+        {props.icon && (
+            <IconWrapper>
+                <props.icon />
+            </IconWrapper>
+        )}
+        {children}
+    </A>
+);
 
 export default Link;
+export type { LinkProps };
