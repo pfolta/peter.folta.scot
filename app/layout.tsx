@@ -5,9 +5,19 @@ import { Footer } from "@/components";
 import packageInfo from "@/package.json";
 import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
+const title = "Peter Folta";
+
 const metadata: Metadata = {
-    title: "Peter Folta",
-    description: packageInfo.description
+    title,
+    description: packageInfo.description,
+    authors: packageInfo.author,
+    openGraph: {
+        type: "website",
+        url: packageInfo.homepage,
+        title,
+        description: packageInfo.description,
+        siteName: title
+    }
 };
 
 interface LayoutProps {
