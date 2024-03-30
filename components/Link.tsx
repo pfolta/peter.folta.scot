@@ -1,7 +1,7 @@
 "use client";
 
-import { ReactNode } from "react";
-import { IconType } from "react-icons";
+import { ReactNode, SVGProps } from "react";
+import { IconType as ReactIconType } from "react-icons";
 import styled from "styled-components";
 
 const A = styled.a`
@@ -40,10 +40,12 @@ const IconWrapper = styled.span`
     }
 `;
 
+type SVGIconType = (props: SVGProps<SVGSVGElement>) => JSX.Element;
+
 interface LinkProps {
     children?: ReactNode;
     className?: string;
-    icon?: IconType;
+    icon?: ReactIconType | SVGIconType;
     href?: string;
     target: string;
 }
