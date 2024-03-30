@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-import { Link } from "@/components";
+import { Avatar, Link } from "@/components";
 import profiles from "@/resources/profiles";
 
 const Explanation = styled.p`
@@ -17,6 +17,8 @@ const StyledLink = styled(Link)`
 const Home = () => {
     return (
         <main>
+            <Avatar src="images/me.jpg" alt="Photo of Peter" height={256} width={256} />
+
             <h1>Peter Folta</h1>
 
             <p>This is where it all begins.</p>
