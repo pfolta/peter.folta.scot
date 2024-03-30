@@ -9,6 +9,7 @@
     },
     "copyright": "© 2024 Peter Folta. All rights reserved.",
     "homepage": "https://peter.folta.scot",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "build": "next build",
