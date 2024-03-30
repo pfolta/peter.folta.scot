@@ -12,7 +12,7 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledAmazonIcon = styled(Icon(FaAmazon))`
-    vertical-align: -0.28em;
+    vertical-align: -0.29em;
 `;
 
 const MapIcon = Icon(FaMapMarkerAlt);
