@@ -2,17 +2,16 @@
 
 import styled from "styled-components";
 
+import Container from "@/components/Container";
 import packageInfo from "@/package.json";
 
-const StyledFooter = styled.footer`
+const StyledFooter = styled(Container)`
     background-color: black;
     color: white;
-
-    padding: 1rem;
 `;
 
 const { copyright } = packageInfo;
 
-const Footer = () => <StyledFooter>{copyright}</StyledFooter>;
+const Footer = () => <StyledFooter as="footer">{copyright}</StyledFooter>;
 
 export default Footer;

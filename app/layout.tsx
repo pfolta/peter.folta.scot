@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 
-import { Footer } from "@/components";
+import { Body, Footer } from "@/components";
 import packageInfo from "@/package.json";
 import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
@@ -26,13 +26,13 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => (
     <html lang="en">
-        <body>
+        <Body>
             <StyledComponentsRegistry>
                 <GlobalStyle />
                 {children}
                 <Footer />
             </StyledComponentsRegistry>
-        </body>
+        </Body>
     </html>
 );
 
