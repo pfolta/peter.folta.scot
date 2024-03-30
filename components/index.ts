@@ -2,5 +2,7 @@ export { default as Avatar } from "@/components/Avatar";
 
 export { default as Footer } from "@/components/Footer";
 
+export { default as Icon } from "@/components/Icon";
+export type { IconType } from "@/components/Icon";
+
 export { default as Link } from "@/components/Link";
-export type { LinkProps } from "@/components/Link";

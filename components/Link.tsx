@@ -1,16 +1,17 @@
 "use client";
 
-import { ReactNode, SVGProps } from "react";
-import { IconType as ReactIconType } from "react-icons";
 import styled from "styled-components";
 
-const A = styled.a`
+const Link = styled.a.attrs({
+    target: "_blank",
+    rel: "noreferrer"
+})`
     text-decoration: none;
     color: black;
 
     &::after {
         content: "→";
-        padding-left: 0.5rem;
+        padding-left: 0.25em;
         position: absolute;
         transition: padding 0.15s ease-in-out;
     }
@@ -22,44 +23,10 @@ const A = styled.a`
 
         @media (prefers-reduced-motion: no-preference) {
             &::after {
-                padding-left: 1rem;
+                padding-left: 0.75em;
             }
         }
     }
 `;
 
-const IconWrapper = styled.span`
-    margin-right: 0.5rem;
-    vertical-align: -0.125em;
-
-    svg {
-        height: 1em;
-        width: 1em;
-        stroke: currentColor;
-        fill: currentColor;
-    }
-`;
-
-type SVGIconType = (props: SVGProps<SVGSVGElement>) => JSX.Element;
-
-interface LinkProps {
-    children?: ReactNode;
-    className?: string;
-    icon?: ReactIconType | SVGIconType;
-    href?: string;
-    target: string;
-}
-
-const Link = ({ children, className, href, target, ...props }: LinkProps) => (
-    <A href={href} target={target} className={className}>
-        {props.icon && (
-            <IconWrapper>
-                <props.icon />
-            </IconWrapper>
-        )}
-        {children}
-    </A>
-);
-
 export default Link;
-export type { LinkProps };

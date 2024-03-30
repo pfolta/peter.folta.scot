@@ -22,6 +22,7 @@ import {
 } from "react-icons/fa6";
 import { SiDuolingo } from "react-icons/si";
 
+import { Icon } from "@/components";
 import Jetpunk from "@/resources/Jetpunk";
 
 const profiles = [
@@ -31,23 +32,23 @@ const profiles = [
         links: [
             {
                 name: "GitHub",
-                icon: FaGithub,
+                icon: Icon(FaGithub),
                 url: "https://github.com/pfolta"
             },
             {
                 name: "NPM",
                 url: "https://www.npmjs.com/~pfolta",
-                icon: FaNpm
+                icon: Icon(FaNpm)
             },
             {
                 name: "HackerRank",
                 url: "https://www.hackerrank.com/profile/pfolta",
-                icon: FaHackerrank
+                icon: Icon(FaHackerrank)
             },
             {
                 name: "Stack Exchange",
                 url: "http://stackexchange.com/users/3834287/pfolta",
-                icon: FaStackExchange
+                icon: Icon(FaStackExchange)
             }
         ]
     },
@@ -57,63 +58,63 @@ const profiles = [
         links: [
             {
                 name: "Facebook",
-                icon: FaSquareFacebook,
-                url: "https://www.facebook.com/pfolta"
+                url: "https://www.facebook.com/pfolta",
+                icon: Icon(FaSquareFacebook)
             },
             {
                 name: "Twitter",
                 url: "https://twitter.com/pfoltaUK",
-                icon: FaXTwitter
+                icon: Icon(FaXTwitter)
             },
             {
                 name: "LinkedIn",
                 url: "https://www.linkedin.com/in/peterfolta/",
-                icon: FaLinkedin
+                icon: Icon(FaLinkedin)
             },
             {
                 name: "Xing",
                 url: "https://www.xing.com/profile/Peter_Folta",
-                icon: FaXing
+                icon: Icon(FaXing)
             },
             {
                 name: "Instagram",
                 url: "https://www.instagram.com/pfolta",
-                icon: FaInstagram
+                icon: Icon(FaInstagram)
             },
             {
                 name: "Threads",
                 url: "https://www.threads.net/@pfolta",
-                icon: FaThreads
+                icon: Icon(FaThreads)
             },
             {
                 name: "TikTok",
-                icon: FaTiktok,
-                url: "https://www.tiktok.com/@pfolta"
+                url: "https://www.tiktok.com/@pfolta",
+                icon: Icon(FaTiktok)
             },
             {
                 name: "Pinterest",
                 url: "https://www.pinterest.com/pfolta/",
-                icon: FaPinterest
+                icon: Icon(FaPinterest)
             },
             {
                 name: "Reddit",
                 url: "https://www.reddit.com/user/pfolta/",
-                icon: FaRedditAlien
+                icon: Icon(FaRedditAlien)
             },
             {
                 name: "Hacker News",
                 url: "https://news.ycombinator.com/user?id=pfolta",
-                icon: FaHackerNews
+                icon: Icon(FaHackerNews)
             },
             {
                 name: "Tumblr",
                 url: "https://www.tumblr.com/pfolta",
-                icon: FaSquareTumblr
+                icon: Icon(FaSquareTumblr)
             },
             {
                 name: "Foursquare",
                 url: "https://foursquare.com/peterf9657841",
-                icon: FaFoursquare
+                icon: Icon(FaFoursquare)
             }
         ]
     },
@@ -124,17 +125,17 @@ const profiles = [
             {
                 name: "500px",
                 url: "https://500px.com/p/pfolta?view=photos",
-                icon: Fa500Px
+                icon: Icon(Fa500Px)
             },
             {
                 name: "Unsplash",
                 url: "https://unsplash.com/@pfolta",
-                icon: FaUnsplash
+                icon: Icon(FaUnsplash)
             },
             {
                 name: "Flickr",
                 url: "https://www.flickr.com/photos/pfolta",
-                icon: FaFlickr
+                icon: Icon(FaFlickr)
             }
         ]
     },
@@ -145,17 +146,17 @@ const profiles = [
             {
                 name: "Steam",
                 url: "https://steamcommunity.com/id/pfolta/",
-                icon: FaSteam
+                icon: Icon(FaSteam)
             },
             {
                 name: "Duolingo",
                 url: "https://www.duolingo.com/profile/peterfolta",
-                icon: SiDuolingo
+                icon: Icon(SiDuolingo)
             },
             {
                 name: "JetPunk",
                 url: "https://www.jetpunk.com/users/pfolta",
-                icon: Jetpunk
+                icon: Icon(Jetpunk)
             }
         ]
     }
