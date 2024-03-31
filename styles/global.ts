@@ -38,6 +38,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: var(--font-size);
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
     }
 
     body {
