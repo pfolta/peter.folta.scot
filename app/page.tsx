@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <main>
             <Container as="section">
-                <Avatar src="images/me.jpg" alt="Photo of Peter" height={192} width={192} />
+                <Avatar src="images/me.jpg" alt="Photo of Peter" width={192} />
 
                 <h1>Peter Folta</h1>
 
@@ -38,6 +38,7 @@ const Home = () => {
                     Edinburgh, United Kingdom
                 </p>
             </Container>
+
             <Container as="section">
                 <h2>Profiles</h2>
 

@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 
-import { Body, Footer } from "@/components";
+import { Footer } from "@/components";
 import packageInfo from "@/package.json";
 import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
@@ -20,21 +20,25 @@ const metadata: Metadata = {
     }
 };
 
+const viewport: Viewport = {
+    viewportFit: "cover"
+};
+
 interface LayoutProps {
     children?: ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => (
     <html lang="en">
-        <Body>
+        <body>
             <StyledComponentsRegistry>
                 <GlobalStyle />
                 {children}
                 <Footer />
             </StyledComponentsRegistry>
-        </Body>
+        </body>
     </html>
 );
 
 export default Layout;
-export { metadata };
+export { metadata, viewport };

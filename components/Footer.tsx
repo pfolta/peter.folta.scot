@@ -8,6 +8,8 @@ import packageInfo from "@/package.json";
 const StyledFooter = styled(Container)`
     background-color: black;
     color: white;
+
+    padding-block: var(--container-padding-inline) calc(var(--container-padding-inline) + env(safe-area-inset-bottom));
 `;
 
 const { copyright } = packageInfo;

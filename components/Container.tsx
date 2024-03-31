@@ -2,12 +2,14 @@
 
 import styled from "styled-components";
 
-const maxWidth = "1200px";
-const defaultPadding = "1rem";
+import { screenWidthMax } from "@/styles";
 
 const Container = styled.div`
-    padding-block: ${defaultPadding};
-    padding-inline: calc((100vw - min(100vw - 2 * ${defaultPadding}, ${maxWidth})) / 2);
+    --padding-inline-query: (100vw - min(100vw - 2 * var(--container-padding-inline), ${screenWidthMax})) / 2;
+    --padding-inline-start: calc(var(--padding-inline-query) + env(safe-area-inset-left));
+    --padding-inline-end: calc(var(--padding-inline-query) + env(safe-area-inset-right));
+
+    padding-inline: var(--padding-inline-start) var(--padding-inline-end);
 `;
 
 export default Container;
