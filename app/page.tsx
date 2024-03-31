@@ -1,10 +1,11 @@
 "use client";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaAmazon } from "react-icons/fa6";
+import { FaAddressCard, FaAmazon, FaEnvelope } from "react-icons/fa6";
 import styled from "styled-components";
 
 import { Avatar, Container, Icon, Link } from "@/components";
+import packageInfo from "@/package.json";
 import profiles from "@/resources/profiles";
 
 const StyledLink = styled(Link)`
@@ -16,14 +17,18 @@ const StyledAmazonIcon = styled(Icon(FaAmazon))`
 `;
 
 const MapIcon = Icon(FaMapMarkerAlt);
+const EmailIcon = Icon(FaEnvelope);
+const VCardIcon = Icon(FaAddressCard);
+
+const { author } = packageInfo;
 
 const Home = () => {
     return (
         <main>
             <Container as="section">
-                <Avatar src="images/me.jpg" alt="Photo of Peter" width={192} />
+                <Avatar src="images/me.jpg" alt={`Photo of ${author.name}`} width={192} />
 
-                <h1>Peter Folta</h1>
+                <h1>{author.name}</h1>
 
                 <p>
                     Senior Software Engineer at{" "}
@@ -36,6 +41,17 @@ const Home = () => {
                 <p>
                     <MapIcon />
                     Edinburgh, United Kingdom
+                </p>
+
+                <p>
+                    <StyledLink href={`mailto:${author.email}`}>
+                        <EmailIcon />
+                        {author.email}
+                    </StyledLink>
+                    <StyledLink href="/vcard.vcf">
+                        <VCardIcon />
+                        Contact vCard
+                    </StyledLink>
                 </p>
             </Container>
 
