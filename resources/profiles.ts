@@ -23,6 +23,7 @@ import {
 import { SiDuolingo } from "react-icons/si";
 
 import { Icon } from "@/components";
+import profile from "@/profile.json";
 import Jetpunk from "@/resources/Jetpunk";
 
 const profiles = [
@@ -32,22 +33,22 @@ const profiles = [
         links: [
             {
                 name: "GitHub",
-                icon: Icon(FaGithub),
-                url: "https://github.com/pfolta"
+                url: profile.social.gitHub,
+                icon: Icon(FaGithub)
             },
             {
                 name: "NPM",
-                url: "https://www.npmjs.com/~pfolta",
+                url: profile.social.npm,
                 icon: Icon(FaNpm)
             },
             {
                 name: "HackerRank",
-                url: "https://www.hackerrank.com/profile/pfolta",
+                url: profile.social.hackerRank,
                 icon: Icon(FaHackerrank)
             },
             {
                 name: "Stack Exchange",
-                url: "http://stackexchange.com/users/3834287/pfolta",
+                url: profile.social.stackExchange,
                 icon: Icon(FaStackExchange)
             }
         ]
@@ -58,62 +59,62 @@ const profiles = [
         links: [
             {
                 name: "Facebook",
-                url: "https://www.facebook.com/pfolta",
+                url: profile.social.facebook,
                 icon: Icon(FaSquareFacebook)
             },
             {
                 name: "Twitter",
-                url: "https://twitter.com/pfoltaUK",
+                url: profile.social.twitter,
                 icon: Icon(FaXTwitter)
             },
             {
                 name: "LinkedIn",
-                url: "https://www.linkedin.com/in/peterfolta/",
+                url: profile.social.linkedIn,
                 icon: Icon(FaLinkedin)
             },
             {
                 name: "Xing",
-                url: "https://www.xing.com/profile/Peter_Folta",
+                url: profile.social.xing,
                 icon: Icon(FaXing)
             },
             {
                 name: "Instagram",
-                url: "https://www.instagram.com/pfolta",
+                url: profile.social.instagram,
                 icon: Icon(FaInstagram)
             },
             {
                 name: "Threads",
-                url: "https://www.threads.net/@pfolta",
+                url: profile.social.threads,
                 icon: Icon(FaThreads)
             },
             {
                 name: "TikTok",
-                url: "https://www.tiktok.com/@pfolta",
+                url: profile.social.tikTok,
                 icon: Icon(FaTiktok)
             },
             {
                 name: "Pinterest",
-                url: "https://www.pinterest.com/pfolta/",
+                url: profile.social.pinterest,
                 icon: Icon(FaPinterest)
             },
             {
                 name: "Reddit",
-                url: "https://www.reddit.com/user/pfolta/",
+                url: profile.social.reddit,
                 icon: Icon(FaRedditAlien)
             },
             {
                 name: "Hacker News",
-                url: "https://news.ycombinator.com/user?id=pfolta",
+                url: profile.social.hackerNews,
                 icon: Icon(FaHackerNews)
             },
             {
                 name: "Tumblr",
-                url: "https://www.tumblr.com/pfolta",
+                url: profile.social.tumblr,
                 icon: Icon(FaSquareTumblr)
             },
             {
                 name: "Foursquare",
-                url: "https://foursquare.com/peterf9657841",
+                url: profile.social.foursquare,
                 icon: Icon(FaFoursquare)
             }
         ]
@@ -124,17 +125,17 @@ const profiles = [
         links: [
             {
                 name: "500px",
-                url: "https://500px.com/p/pfolta?view=photos",
+                url: profile.social["500px"],
                 icon: Icon(Fa500Px)
             },
             {
                 name: "Unsplash",
-                url: "https://unsplash.com/@pfolta",
+                url: profile.social.unsplash,
                 icon: Icon(FaUnsplash)
             },
             {
                 name: "Flickr",
-                url: "https://www.flickr.com/photos/pfolta",
+                url: profile.social.flickr,
                 icon: Icon(FaFlickr)
             }
         ]
@@ -145,17 +146,17 @@ const profiles = [
         links: [
             {
                 name: "Steam",
-                url: "https://steamcommunity.com/id/pfolta/",
+                url: profile.social.steam,
                 icon: Icon(FaSteam)
             },
             {
                 name: "Duolingo",
-                url: "https://www.duolingo.com/profile/peterfolta",
+                url: profile.social.duolingo,
                 icon: Icon(SiDuolingo)
             },
             {
                 name: "JetPunk",
-                url: "https://www.jetpunk.com/users/pfolta",
+                url: profile.social.jetPunk,
                 icon: Icon(Jetpunk)
             }
         ]

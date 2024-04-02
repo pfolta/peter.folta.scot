@@ -3,20 +3,19 @@ import { ReactNode } from "react";
 
 import { Footer } from "@/components";
 import packageInfo from "@/package.json";
+import profile from "@/profile.json";
 import { GlobalStyle, StyledComponentsRegistry } from "@/styles";
 
-const title = "Peter Folta";
-
 const metadata: Metadata = {
-    title,
+    title: profile.name,
     description: packageInfo.description,
     authors: packageInfo.author,
     openGraph: {
         type: "website",
         url: packageInfo.homepage,
-        title,
+        title: profile.name,
         description: packageInfo.description,
-        siteName: title
+        siteName: profile.name
     }
 };
 

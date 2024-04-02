@@ -1,26 +1,26 @@
 import { readFileSync } from "fs";
 import { resolve } from "path";
-import vCardJS from "vcards-js";
+import vCardsJs from "vcards-js";
 
-import packageInfo from "@/package.json";
+import profile from "@/profile.json";
 
-const { author, homepage } = packageInfo;
-
-const vCard = vCardJS();
+const vCard = vCardsJs();
 vCard.version = "4.0";
-vCard.source = `${homepage}/vcard.vcf`;
-vCard.firstName = "Peter";
-vCard.lastName = "Folta";
-vCard.title = "Senior Software Engineer";
-vCard.email = author.email;
-vCard.url = author.url;
-vCard.socialUrls.facebook = "https://www.facebook.com/pfolta";
-vCard.socialUrls.linkedIn = "https://www.linkedin.com/in/peterfolta/";
-vCard.socialUrls.twitter = "https://twitter.com/pfoltaUK";
+vCard.source = `${profile.url}/vcard.vcf`;
 vCard.photo.embedFromString(readFileSync(resolve("public/images/me.jpg")).toString("base64"), "JPEG");
+vCard.firstName = profile.firstName;
+vCard.lastName = profile.lastName;
+vCard.formattedName = profile.name;
+vCard.title = profile.title;
+vCard.email = profile.email;
+vCard.url = profile.url;
+
+["linkedIn", "facebook", "twitter"].forEach((social) => (vCard.socialUrls[social] = profile.social[social as keyof typeof profile.social]));
+
+const vCardSerialized = vCard.getFormattedString();
 
 const GET = () =>
-    new Response(vCard.getFormattedString(), {
+    new Response(vCardSerialized, {
         headers: {
             "Content-Type": "text/vcard"
         }
