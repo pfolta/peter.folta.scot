@@ -3,24 +3,23 @@
 import "inter-ui/inter.css";
 import { createGlobalStyle } from "styled-components";
 
-const screenWidthMedium = "320px";
-const screenWidthLarge = "600px";
-const screenWidthMax = "1200px";
+const screenMedium = "320px";
+const screenLarge = "600px";
+const screenMax = "1200px";
+
+const screenSizeMediaQuery = (minWidth: string) => `@media (min-width: ${minWidth})`;
 
 const GlobalStyle = createGlobalStyle`
     :root {
         --font-size: 4vw;
         --container-padding-inline: 1vw;
 
-        /* stylelint-disable-next-line media-query-no-invalid */
-        @media (min-width: ${screenWidthMedium}) {
-            --font-size: 14px;
+        ${screenSizeMediaQuery(screenMedium)} {
+            --font-size: 16px;
             --container-padding-inline: 1rem;
         }
 
-        /* stylelint-disable-next-line media-query-no-invalid */
-        @media (min-width: ${screenWidthLarge}) {
-            --font-size: 16px;
+        ${screenSizeMediaQuery(screenLarge)} {
             --container-padding-inline: 2rem;
         }
     }
@@ -54,4 +53,4 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
-export { screenWidthLarge, screenWidthMax, screenWidthMedium };
+export { screenLarge, screenMax, screenMedium, screenSizeMediaQuery };
