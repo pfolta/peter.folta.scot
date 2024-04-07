@@ -1,2 +1,4 @@
+Sitemap: https://peter.folta.scot/sitemap.xml
+
 User-Agent: *
 Disallow:
