@@ -1,10 +1,17 @@
 "use client";
 
+import { FaBug, FaGithub } from "react-icons/fa6";
 import styled from "styled-components";
 
 import Container from "@/components/Container";
+import Icon from "@/components/Icon";
+import Link from "@/components/Link";
 import packageInfo from "@/package.json";
 import { screenLarge, screenSizeMediaQuery } from "@/styles/global";
+
+const { bugs, copyright, repository } = packageInfo;
+const GitHubIcon = Icon(FaGithub);
+const BugIcon = Icon(FaBug);
 
 const StyledFooter = styled(Container)`
     background-color: black;
@@ -23,8 +30,18 @@ const StyledFooter = styled(Container)`
     }
 `;
 
-const { copyright } = packageInfo;
-
-const Footer = () => <StyledFooter as="footer">{copyright}</StyledFooter>;
+const Footer = () => (
+    <StyledFooter as="footer">
+        {copyright}
+        <Link href={repository.url}>
+            <GitHubIcon />
+            Source Code
+        </Link>
+        <Link href={bugs.url}>
+            <BugIcon />
+            Report an issue
+        </Link>
+    </StyledFooter>
+);
 
 export default Footer;

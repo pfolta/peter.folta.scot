@@ -11,7 +11,7 @@
     "homepage": "https://peter.folta.scot",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pfolta/peter.folta.scot.git"
+        "url": "https://github.com/pfolta/peter.folta.scot"
     },
     "bugs": {
         "url": "https://github.com/pfolta/peter.folta.scot/issues"

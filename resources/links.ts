@@ -26,7 +26,7 @@ import { Icon } from "@/components";
 import profile from "@/profile.json";
 import { Jetpunk } from "@/resources/icons";
 
-const profiles = [
+const links = [
     {
         id: "code",
         name: "Code & Collaboration",
@@ -163,4 +163,4 @@ const profiles = [
     }
 ];
 
-export default profiles;
+export default links;

@@ -7,7 +7,7 @@ const Link = styled.a.attrs({
     rel: "noreferrer"
 })`
     text-decoration: none;
-    color: black;
+    color: currentColor;
 
     &::after {
         content: "→";
