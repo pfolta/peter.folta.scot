@@ -11,7 +11,10 @@
     "homepage": "https://peter.folta.scot",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pfolta/peter.folta.scot.git"
+        "url": "git+https://github.com/pfolta/peter.folta.scot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pfolta/peter.folta.scot/issues"
     },
     "license": "MIT",
     "private": true,
