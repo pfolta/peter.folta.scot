@@ -1,6 +1,6 @@
 "use client";
 
-import { SVGProps } from "react";
+import { JSX, SVGProps } from "react";
 import { IconType as ReactIconType } from "react-icons";
 import styled from "styled-components";
 

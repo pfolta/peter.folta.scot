@@ -27,3 +27,4 @@ const GET = () =>
     });
 
 export { GET };
+export const dynamic = "force-static";
