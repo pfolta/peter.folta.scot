@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 import { Avatar, Container, Icon, Link } from "@/components";
 import packageInfo from "@/package.json";
-import profiles from "@/resources/profiles";
+import { links } from "@/resources";
 
 const StyledLink = styled(Link)`
     display: block;
@@ -58,7 +58,7 @@ const Home = () => {
             <Container as="section">
                 <h2>Profiles</h2>
 
-                {profiles.map((group) => (
+                {links.map((group) => (
                     <section key={group.id}>
                         <h3>{group.name}</h3>
 

@@ -24,7 +24,7 @@ import { SiDuolingo } from "react-icons/si";
 
 import { Icon } from "@/components";
 import profile from "@/profile.json";
-import Jetpunk from "@/resources/Jetpunk";
+import { Jetpunk } from "@/resources/icons";
 
 const profiles = [
     {
