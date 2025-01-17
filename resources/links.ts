@@ -20,11 +20,11 @@ import {
     FaXTwitter,
     FaXing
 } from "react-icons/fa6";
-import { SiDuolingo } from "react-icons/si";
+import { SiDuolingo, SiPrintables, SiThingiverse } from "react-icons/si";
 
 import { Icon } from "@/components";
 import profile from "@/profile.json";
-import { Jetpunk } from "@/resources/icons";
+import { Jetpunk, MakerWorld } from "@/resources/icons";
 
 const links = [
     {
@@ -137,6 +137,27 @@ const links = [
                 name: "Flickr",
                 url: profile.social.flickr,
                 icon: Icon(FaFlickr)
+            }
+        ]
+    },
+    {
+        id: "3dprinting",
+        name: "3D Printing",
+        links: [
+            {
+                name: "MakerWorld",
+                url: profile.social.makerworld,
+                icon: Icon(MakerWorld)
+            },
+            {
+                name: "Printables",
+                url: profile.social.printables,
+                icon: Icon(SiPrintables)
+            },
+            {
+                name: "Thingiverse",
+                url: profile.social.thingiverse,
+                icon: Icon(SiThingiverse)
             }
         ]
     },
