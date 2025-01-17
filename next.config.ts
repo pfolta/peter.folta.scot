@@ -7,7 +7,7 @@ const NOW = Date.now();
 const isGitDirty = () => execSync("git status -s").toString().trim().length > 0;
 
 /** Returns the last Git commit date or the current date if the working tree is dirty formatted using `DATE_FORMAT`. */
-const lastUpdated = () => (isGitDirty() ? NOW : execSync(`git show -s --format=%ct'`)).toString().trim();
+const lastUpdated = () => (isGitDirty() ? NOW : execSync(`git show -s --format=%ct`)).toString().trim();
 
 const nextConfig: NextConfig = {
     env: {
