@@ -1,6 +1,7 @@
 "use client";
 
 import { FaBug, FaGithub } from "react-icons/fa6";
+import strftime from "strftime";
 import styled from "styled-components";
 
 import Container from "@/components/Container";
@@ -8,6 +9,8 @@ import Icon from "@/components/Icon";
 import Link from "@/components/Link";
 import packageInfo from "@/package.json";
 import { screenLarge, screenSizeMediaQuery } from "@/styles/global";
+
+const DATE_FORMAT = "%-d %B %Y";
 
 const { bugs, copyright, repository } = packageInfo;
 const GitHubIcon = Icon(FaGithub);
@@ -41,7 +44,7 @@ const Footer = () => (
             <BugIcon />
             Report an issue
         </Link>
-        Last updated: {process.env.LAST_UPDATED}
+        Last updated on {strftime(DATE_FORMAT, new Date(Number(process.env.LAST_UPDATED)))}
     </StyledFooter>
 );
 

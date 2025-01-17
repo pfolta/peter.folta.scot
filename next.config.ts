@@ -1,20 +1,13 @@
 import { execSync } from "child_process";
 import { NextConfig } from "next";
-import strftime from "strftime";
 
-const DATE_FORMAT = "%b %-d, %Y at %-I:%M %p %z";
-const NOW = new Date();
+const NOW = Date.now();
 
 /** Checks if Git working tree is dirty. */
-const isDirty = () => {
-    const status = execSync("git status -s").toString().trim();
-    return status.length !== 0;
-};
+const isGitDirty = () => execSync("git status -s").toString().trim().length > 0;
 
 /** Returns the last Git commit date or the current date if the working tree is dirty formatted using `DATE_FORMAT`. */
-const lastUpdated = () => {
-    return isDirty() ? strftime(DATE_FORMAT, NOW) : execSync(`git show -s --format=%cd --date=format:'${DATE_FORMAT}'`).toString().trim();
-};
+const lastUpdated = () => (isGitDirty() ? NOW : execSync(`git show -s --format=%ct'`)).toString().trim();
 
 const nextConfig: NextConfig = {
     env: {

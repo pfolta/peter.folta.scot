@@ -36,6 +36,7 @@
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
         "react-icons": "^5.4.0",
+        "strftime": "^0.10.3",
         "styled-components": "^6.1.14",
         "vcards-js": "^2.10.0"
     },
@@ -55,7 +56,6 @@
         "postcss-styled-syntax": "^0.7.1",
         "prettier": "^3.4.2",
         "prettier-plugin-organize-imports": "^4.1.0",
-        "strftime": "^0.10.3",
         "stylelint": "^16.13.2",
         "stylelint-config-recommended": "^15.0.0",
         "stylelint-config-standard": "^37.0.0",
