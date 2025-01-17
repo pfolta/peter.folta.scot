@@ -1,4 +1,5 @@
 import { execSync } from "child_process";
+import { NextConfig } from "next";
 import strftime from "strftime";
 
 const DATE_FORMAT = "%b %-d, %Y at %-I:%M %p %z";
@@ -15,10 +16,13 @@ const lastUpdated = () => {
     return isDirty() ? strftime(DATE_FORMAT, NOW) : execSync(`git show -s --format=%cd --date=format:'${DATE_FORMAT}'`).toString().trim();
 };
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
     env: {
         LAST_UPDATED: lastUpdated()
+    },
+    eslint: {
+        // We run ESLint separately as part of the `npm run lint` script.
+        ignoreDuringBuilds: true
     },
     compiler: {
         styledComponents: true

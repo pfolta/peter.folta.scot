@@ -43,6 +43,7 @@
         "@types/node": "^22.10.6",
         "@types/react": "^19.0.7",
         "@types/react-dom": "^19.0.3",
+        "@types/strftime": "^0.9.8",
         "@types/vcards-js": "^2.10.5",
         "@typescript-eslint/eslint-plugin": "^8.20.0",
         "@typescript-eslint/parser": "^8.20.0",
