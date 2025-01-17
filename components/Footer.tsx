@@ -41,6 +41,7 @@ const Footer = () => (
             <BugIcon />
             Report an issue
         </Link>
+        Last updated: {process.env.LAST_UPDATED}
     </StyledFooter>
 );
 
