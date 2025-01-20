@@ -1,30 +1,5 @@
-import {
-    Fa500Px,
-    FaFlickr,
-    FaFoursquare,
-    FaGithub,
-    FaHackerNews,
-    FaHackerrank,
-    FaInstagram,
-    FaLinkedin,
-    FaNpm,
-    FaPinterest,
-    FaRedditAlien,
-    FaSquareFacebook,
-    FaSquareTumblr,
-    FaStackExchange,
-    FaSteam,
-    FaThreads,
-    FaTiktok,
-    FaUnsplash,
-    FaXTwitter,
-    FaXing
-} from "react-icons/fa6";
-import { SiDuolingo, SiPrintables, SiThingiverse } from "react-icons/si";
-
-import { Icon } from "@/components";
+import * as Icon from "@/components/Icon";
 import profile from "@/profile.json";
-import { Jetpunk, MakerWorld } from "@/resources/icons";
 
 const links = [
     {
@@ -34,22 +9,22 @@ const links = [
             {
                 name: "GitHub",
                 url: profile.social.gitHub,
-                icon: Icon(FaGithub)
+                icon: Icon.GitHub
             },
             {
                 name: "NPM",
                 url: profile.social.npm,
-                icon: Icon(FaNpm)
+                icon: Icon.Npm
             },
             {
                 name: "HackerRank",
                 url: profile.social.hackerRank,
-                icon: Icon(FaHackerrank)
+                icon: Icon.Hackerrank
             },
             {
                 name: "Stack Exchange",
                 url: profile.social.stackExchange,
-                icon: Icon(FaStackExchange)
+                icon: Icon.StackExchange
             }
         ]
     },
@@ -60,62 +35,62 @@ const links = [
             {
                 name: "Facebook",
                 url: profile.social.facebook,
-                icon: Icon(FaSquareFacebook)
+                icon: Icon.Facebook
             },
             {
                 name: "Twitter",
                 url: profile.social.twitter,
-                icon: Icon(FaXTwitter)
+                icon: Icon.X
             },
             {
                 name: "LinkedIn",
                 url: profile.social.linkedIn,
-                icon: Icon(FaLinkedin)
+                icon: Icon.LinkedIn
             },
             {
                 name: "Xing",
                 url: profile.social.xing,
-                icon: Icon(FaXing)
+                icon: Icon.Xing
             },
             {
                 name: "Instagram",
                 url: profile.social.instagram,
-                icon: Icon(FaInstagram)
+                icon: Icon.Instagram
             },
             {
                 name: "Threads",
                 url: profile.social.threads,
-                icon: Icon(FaThreads)
+                icon: Icon.Threads
             },
             {
                 name: "TikTok",
                 url: profile.social.tikTok,
-                icon: Icon(FaTiktok)
+                icon: Icon.Tiktok
             },
             {
                 name: "Pinterest",
                 url: profile.social.pinterest,
-                icon: Icon(FaPinterest)
+                icon: Icon.Pinterest
             },
             {
                 name: "Reddit",
                 url: profile.social.reddit,
-                icon: Icon(FaRedditAlien)
+                icon: Icon.Reddit
             },
             {
                 name: "Hacker News",
                 url: profile.social.hackerNews,
-                icon: Icon(FaHackerNews)
+                icon: Icon.HackerNews
             },
             {
                 name: "Tumblr",
                 url: profile.social.tumblr,
-                icon: Icon(FaSquareTumblr)
+                icon: Icon.Tumblr
             },
             {
                 name: "Foursquare",
                 url: profile.social.foursquare,
-                icon: Icon(FaFoursquare)
+                icon: Icon.Foursquare
             }
         ]
     },
@@ -126,17 +101,17 @@ const links = [
             {
                 name: "500px",
                 url: profile.social["500px"],
-                icon: Icon(Fa500Px)
+                icon: Icon.FiveHundredPx
             },
             {
                 name: "Unsplash",
                 url: profile.social.unsplash,
-                icon: Icon(FaUnsplash)
+                icon: Icon.Unsplash
             },
             {
                 name: "Flickr",
                 url: profile.social.flickr,
-                icon: Icon(FaFlickr)
+                icon: Icon.Flickr
             }
         ]
     },
@@ -147,17 +122,17 @@ const links = [
             {
                 name: "MakerWorld",
                 url: profile.social.makerworld,
-                icon: Icon(MakerWorld)
+                icon: Icon.MakerWorld
             },
             {
                 name: "Printables",
                 url: profile.social.printables,
-                icon: Icon(SiPrintables)
+                icon: Icon.Printables
             },
             {
                 name: "Thingiverse",
                 url: profile.social.thingiverse,
-                icon: Icon(SiThingiverse)
+                icon: Icon.Thingiverse
             }
         ]
     },
@@ -168,17 +143,17 @@ const links = [
             {
                 name: "Steam",
                 url: profile.social.steam,
-                icon: Icon(FaSteam)
+                icon: Icon.Steam
             },
             {
                 name: "Duolingo",
                 url: profile.social.duolingo,
-                icon: Icon(SiDuolingo)
+                icon: Icon.Duolingo
             },
             {
                 name: "JetPunk",
                 url: profile.social.jetPunk,
-                icon: Icon(Jetpunk)
+                icon: Icon.JetPunk
             }
         ]
     }

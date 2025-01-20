@@ -1,10 +1,9 @@
 "use client";
 
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaAddressCard, FaAmazon, FaEnvelope } from "react-icons/fa6";
 import styled from "styled-components";
 
-import { Avatar, Container, Icon, Link } from "@/components";
+import { Avatar, Container, Link } from "@/components";
+import * as Icon from "@/components/Icon";
 import packageInfo from "@/package.json";
 import { links } from "@/resources";
 
@@ -12,13 +11,9 @@ const StyledLink = styled(Link)`
     display: block;
 `;
 
-const StyledAmazonIcon = styled(Icon(FaAmazon))`
+const StyledAmazonIcon = styled(Icon.Amazon)`
     vertical-align: -0.29em;
 `;
-
-const MapIcon = Icon(FaMapMarkerAlt);
-const EmailIcon = Icon(FaEnvelope);
-const VCardIcon = Icon(FaAddressCard);
 
 const { author } = packageInfo;
 
@@ -39,17 +34,17 @@ const Home = () => {
                 </p>
 
                 <p>
-                    <MapIcon />
+                    <Icon.MapMarker />
                     Edinburgh, United Kingdom
                 </p>
 
                 <p>
                     <StyledLink href={`mailto:${author.email}`}>
-                        <EmailIcon />
+                        <Icon.Email />
                         {author.email}
                     </StyledLink>
                     <StyledLink href="/vcard.vcf">
-                        <VCardIcon />
+                        <Icon.AddressCard />
                         Contact vCard
                     </StyledLink>
                 </p>
