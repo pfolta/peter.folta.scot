@@ -38,7 +38,7 @@ const links = [
                 icon: Icon.Facebook
             },
             {
-                name: "Twitter",
+                name: "X",
                 url: profile.social.twitter,
                 icon: Icon.X
             },
