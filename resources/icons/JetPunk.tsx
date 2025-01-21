@@ -1,7 +1,7 @@
 import { SVGProps } from "react";
 
 const JetPunk = (props: SVGProps<SVGSVGElement>) => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" {...props}>
         <g transform="matrix(0.339699,0,0,0.339699,-0.439773,0.344087)">
             <path d="M1.295,26.112C4.538,28.85 8.299,33.129 8.707,37.695C9.131,42.433 6.888,46.759 3.269,50.889C7.006,50.674 13.751,45.704 16.87,44.236C16.78,39.226 15.792,38.089 17.667,33.365C14.008,30.288 8.06,25.95 1.295,26.112Z" />
         </g>
