@@ -53,11 +53,6 @@ const links = [
                 icon: Icon.Xing
             },
             {
-                name: "Instagram",
-                url: profile.social.instagram,
-                icon: Icon.Instagram
-            },
-            {
                 name: "Threads",
                 url: profile.social.threads,
                 icon: Icon.Threads
@@ -107,6 +102,11 @@ const links = [
                 name: "Unsplash",
                 url: profile.social.unsplash,
                 icon: Icon.Unsplash
+            },
+            {
+                name: "Instagram",
+                url: profile.social.instagram,
+                icon: Icon.Instagram
             },
             {
                 name: "Flickr",
