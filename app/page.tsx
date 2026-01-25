@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <main>
             <Container as="section">
-                <Avatar src="images/me.jpg" alt={`Photo of ${author.name}`} width={192} />
+                <Avatar src="images/me.jpg" alt={`Photo of ${name}`} $size={192} />
 
                 <h1>{author.name}</h1>
 
