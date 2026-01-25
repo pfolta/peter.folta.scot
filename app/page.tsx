@@ -13,6 +13,7 @@ const StyledLink = styled(Link)`
 `;
 
 const StyledAmazonIcon = styled(Icon.Amazon)`
+    margin-right: 0.25em;
     vertical-align: -0.29em;
 `;
 
@@ -61,7 +62,10 @@ const Home = () => {
             <LinkGrid>
                 {links.map((group) => (
                     <section key={group.id}>
-                        <h3>{group.name}</h3>
+                        <h3>
+                            <group.icon />
+                            {group.name}
+                        </h3>
 
                         {group.links.map((link) => (
                             <StyledLink key={link.url} href={link.url} $color={link.color}>

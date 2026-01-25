@@ -4,6 +4,7 @@ import profile from "@/profile.json";
 interface LinkGroup {
     id: string;
     name: string;
+    icon: Icon.IconType;
     links: Link[];
 }
 
@@ -17,7 +18,8 @@ interface Link {
 const links: LinkGroup[] = [
     {
         id: "code",
-        name: "Code & Collaboration",
+        name: "Coding",
+        icon: Icon.Code,
         links: [
             {
                 name: "GitHub",
@@ -48,6 +50,7 @@ const links: LinkGroup[] = [
     {
         id: "social",
         name: "Social Media",
+        icon: Icon.Share,
         links: [
             {
                 name: "Facebook",
@@ -114,6 +117,7 @@ const links: LinkGroup[] = [
     {
         id: "photography",
         name: "Photography",
+        icon: Icon.Camera,
         links: [
             {
                 name: "500px",
@@ -144,6 +148,7 @@ const links: LinkGroup[] = [
     {
         id: "3dprinting",
         name: "3D Printing",
+        icon: Icon.Cube,
         links: [
             {
                 name: "MakerWorld",
@@ -168,6 +173,7 @@ const links: LinkGroup[] = [
     {
         id: "gaming",
         name: "Gaming",
+        icon: Icon.GameController,
         links: [
             {
                 name: "Steam",
