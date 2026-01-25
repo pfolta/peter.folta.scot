@@ -2,10 +2,14 @@
 
 import styled from "styled-components";
 
+interface LinkProps {
+    $color?: string;
+}
+
 const Link = styled.a.attrs({
     target: "_blank",
     rel: "noreferrer"
-})`
+})<LinkProps>`
     text-decoration: none;
     color: currentColor;
 
@@ -21,6 +25,12 @@ const Link = styled.a.attrs({
         outline: none;
         text-decoration: underline;
 
+        ${({ $color }) =>
+            $color &&
+            `
+            color: ${$color};
+        `}
+
         @media (prefers-reduced-motion: no-preference) {
             &::after {
                 padding-left: 0.75em;
@@ -30,3 +40,4 @@ const Link = styled.a.attrs({
 `;
 
 export default Link;
+export type { LinkProps };

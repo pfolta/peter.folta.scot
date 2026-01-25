@@ -27,7 +27,7 @@ const Home = () => {
 
                 <p>
                     Senior Software Engineer at{" "}
-                    <Link href="https://www.amazon.jobs/en/locations/edinburgh-scotland">
+                    <Link href="https://www.amazon.jobs/en/locations/edinburgh-scotland" $color="#fe9900">
                         <StyledAmazonIcon />
                         Amazon
                     </Link>
@@ -58,7 +58,7 @@ const Home = () => {
                         <h3>{group.name}</h3>
 
                         {group.links.map((link) => (
-                            <StyledLink key={link.url} href={link.url}>
+                            <StyledLink key={link.url} href={link.url} $color={link.color}>
                                 <link.icon />
                                 {link.name}
                             </StyledLink>
