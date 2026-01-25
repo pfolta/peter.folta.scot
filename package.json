@@ -19,7 +19,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "build": "next build",
+        "build": "next typegen && next build",
         "clean": "rimraf .next out",
         "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:stylelint",
         "lint:fix": "npm run lint:prettier:fix && npm run lint:stylelint:fix",

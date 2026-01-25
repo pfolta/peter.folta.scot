@@ -1,6 +1,7 @@
 # NextJS Build
 /.next
 /out
+/next-env.d.ts
 
 # NPM
 /node_modules
