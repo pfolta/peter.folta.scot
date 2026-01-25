@@ -13,10 +13,6 @@ const nextConfig: NextConfig = {
     env: {
         LAST_UPDATED: lastUpdated()
     },
-    eslint: {
-        // We run ESLint separately as part of the `npm run lint` script.
-        ignoreDuringBuilds: true
-    },
     compiler: {
         styledComponents: true
     },
