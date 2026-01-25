@@ -1,20 +1,24 @@
 1:"$Sreact.fragment"
-2:I[7683,["362","static/chunks/30a37ab2-22d25def0e47c512.js","446","static/chunks/53c13509-30d5bdb20644d2ff.js","711","static/chunks/8e1d74a4-27f635b94c969c77.js","698","static/chunks/698-02e149c2cddd7f30.js","177","static/chunks/app/layout-436a032fbdeb0dc9.js"],"default"]
-3:I[6191,["362","static/chunks/30a37ab2-22d25def0e47c512.js","446","static/chunks/53c13509-30d5bdb20644d2ff.js","711","static/chunks/8e1d74a4-27f635b94c969c77.js","698","static/chunks/698-02e149c2cddd7f30.js","177","static/chunks/app/layout-436a032fbdeb0dc9.js"],"default"]
-4:I[5244,[],""]
-5:I[3866,[],""]
-7:I[2509,["362","static/chunks/30a37ab2-22d25def0e47c512.js","446","static/chunks/53c13509-30d5bdb20644d2ff.js","711","static/chunks/8e1d74a4-27f635b94c969c77.js","698","static/chunks/698-02e149c2cddd7f30.js","177","static/chunks/app/layout-436a032fbdeb0dc9.js"],"default"]
-8:I[7033,[],"ClientPageRoot"]
-9:I[721,["362","static/chunks/30a37ab2-22d25def0e47c512.js","446","static/chunks/53c13509-30d5bdb20644d2ff.js","711","static/chunks/8e1d74a4-27f635b94c969c77.js","698","static/chunks/698-02e149c2cddd7f30.js","974","static/chunks/app/page-aec0cdb349a030bd.js"],"default"]
-c:I[6213,[],"OutletBoundary"]
-e:I[6213,[],"MetadataBoundary"]
-10:I[6213,[],"ViewportBoundary"]
-12:I[4835,[],""]
+2:I[9133,["362","static/chunks/30a37ab2-06e52606d57ebbe1.js","446","static/chunks/53c13509-d2366debdde5fb0b.js","711","static/chunks/8e1d74a4-917659aa97ee23bc.js","67","static/chunks/67-fe53a22ac7faccb6.js","177","static/chunks/app/layout-b9fd5bfeadd83fac.js"],"default"]
+3:I[4393,["362","static/chunks/30a37ab2-06e52606d57ebbe1.js","446","static/chunks/53c13509-d2366debdde5fb0b.js","711","static/chunks/8e1d74a4-917659aa97ee23bc.js","67","static/chunks/67-fe53a22ac7faccb6.js","177","static/chunks/app/layout-b9fd5bfeadd83fac.js"],"default"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+7:I[8743,["362","static/chunks/30a37ab2-06e52606d57ebbe1.js","446","static/chunks/53c13509-d2366debdde5fb0b.js","711","static/chunks/8e1d74a4-917659aa97ee23bc.js","67","static/chunks/67-fe53a22ac7faccb6.js","177","static/chunks/app/layout-b9fd5bfeadd83fac.js"],"default"]
+8:I[1959,[],"ClientPageRoot"]
+9:I[9883,["362","static/chunks/30a37ab2-06e52606d57ebbe1.js","446","static/chunks/53c13509-d2366debdde5fb0b.js","711","static/chunks/8e1d74a4-917659aa97ee23bc.js","67","static/chunks/67-fe53a22ac7faccb6.js","974","static/chunks/app/page-190b6fcc7a556763.js"],"default"]
+c:I[4431,[],"OutletBoundary"]
+e:I[5278,[],"AsyncMetadataOutlet"]
+10:I[4431,[],"ViewportBoundary"]
+12:I[4431,[],"MetadataBoundary"]
+13:"$Sreact.suspense"
+15:I[7150,[],""]
 :HL["/_next/static/css/e38d126c3f9bdb8e.css","style"]
-0:{"P":null,"b":"fP_uDE247h7RcmtTKxFPE","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e38d126c3f9bdb8e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],"$L6"],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{"Component":"$9","searchParams":{},"params":{},"promises":["$@a","$@b"]}],null,["$","$Lc",null,{"children":"$Ld"}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","zPbOTsprpzcaTr9WzPtW_",{"children":[["$","$Le",null,{"children":"$Lf"}],["$","$L10",null,{"children":"$L11"}],null]}]]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"W44fM5fCryV4Ru6tI3Epl","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e38d126c3f9bdb8e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$L6",[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L7",null,{}]]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{"Component":"$9","searchParams":{},"params":{},"promises":["$@a","$@b"]}],null,["$","$Lc",null,{"children":["$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L10",null,{"children":"$L11"}],null],["$","$L12",null,{"children":["$","div",null,{"hidden":true,"children":["$","$13",null,{"fallback":null,"children":"$L14"}]}]}]]}],false]],"m":"$undefined","G":["$15",[]],"s":false,"S":true}
 6:E{"digest":"NEXT_REDIRECT;replace;/;307;"}
 a:{}
-b:{}
-11:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]
-f:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Peter Folta"}],["$","meta","2",{"name":"description","content":"Peter Folta's personal website."}],["$","link","3",{"rel":"author","href":"https://peter.folta.scot"}],["$","meta","4",{"name":"author","content":"Peter Folta"}],["$","meta","5",{"property":"og:title","content":"Peter Folta"}],["$","meta","6",{"property":"og:description","content":"Peter Folta's personal website."}],["$","meta","7",{"property":"og:url","content":"https://peter.folta.scot/"}],["$","meta","8",{"property":"og:site_name","content":"Peter Folta"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary"}],["$","meta","11",{"name":"twitter:title","content":"Peter Folta"}],["$","meta","12",{"name":"twitter:description","content":"Peter Folta's personal website."}],["$","link","13",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+b:"$0:f:0:1:2:children:1:props:children:0:props:params"
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]
 d:null
+16:I[622,[],"IconMark"]
+f:{"metadata":[["$","title","0",{"children":"Peter Folta"}],["$","meta","1",{"name":"description","content":"Peter Folta's personal website."}],["$","link","2",{"rel":"author","href":"https://peter.folta.scot"}],["$","meta","3",{"name":"author","content":"Peter Folta"}],["$","meta","4",{"property":"og:title","content":"Peter Folta"}],["$","meta","5",{"property":"og:description","content":"Peter Folta's personal website."}],["$","meta","6",{"property":"og:url","content":"https://peter.folta.scot/"}],["$","meta","7",{"property":"og:site_name","content":"Peter Folta"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"Peter Folta"}],["$","meta","11",{"name":"twitter:description","content":"Peter Folta's personal website."}],["$","link","12",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L16","13",{}]],"error":null,"digest":"$undefined"}
+14:"$f:metadata"
