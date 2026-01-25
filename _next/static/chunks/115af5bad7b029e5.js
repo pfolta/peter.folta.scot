@@ -75,6 +75,10 @@
         outline: none;
         text-decoration: underline;
 
+        ${({$color:e})=>e&&`
+            color: ${e};
+        `}
+
         @media (prefers-reduced-motion: no-preference) {
             &::after {
                 padding-left: 0.75em;
@@ -96,4 +100,4 @@
         place-items: normal;
         text-align: start;
     }
-`;e.s(["default",0,()=>(0,t.jsxs)(f,{as:"footer",children:[u,(0,t.jsxs)(i.default,{href:d.url,children:[(0,t.jsx)(o.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:l.url,children:[(0,t.jsx)(o.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1769363028000")))]})])}]);
+`;e.s(["default",0,()=>(0,t.jsxs)(f,{as:"footer",children:[u,(0,t.jsxs)(i.default,{href:d.url,children:[(0,t.jsx)(o.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:l.url,children:[(0,t.jsx)(o.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1769363098000")))]})])}]);
