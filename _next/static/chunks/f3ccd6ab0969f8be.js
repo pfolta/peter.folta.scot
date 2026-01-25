@@ -48,7 +48,7 @@
     input, button, textarea, select {
         font: inherit;
     }
-`;e.s(["default",0,o,"screenLarge",()=>n,"screenMax",()=>"1200px","screenMedium",()=>r,"screenSizeMediaQuery",()=>a])},18566,(e,t,r)=>{t.exports=e.r(76562)},17049,e=>{"use strict";var t=e.i(43476),r=e.i(18566),n=e.i(71645),a=e.i(97053);e.s(["default",0,({children:e})=>{let[o]=(0,n.useState)(()=>new a.ServerStyleSheet);return(0,r.useServerInsertedHTML)(()=>{let e=o.getStyleElement();return o.instance.clearTag(),(0,t.jsx)(t.Fragment,{children:e})}),(0,t.jsx)(t.Fragment,{children:e})}])},10201,e=>{"use strict";var t=e.i(97053),r=e.i(97788);e.i(17049);let n=t.default.div.withConfig({displayName:"Container",componentId:"sc-c8fba83a-0"})`
+`;e.s(["default",0,o,"screenLarge",()=>n,"screenMax",()=>"1200px","screenMedium",()=>r,"screenSizeMediaQuery",()=>a])},18566,(e,t,r)=>{t.exports=e.r(76562)},17049,e=>{"use strict";var t=e.i(43476),r=e.i(18566),n=e.i(71645),a=e.i(97053);e.s(["default",0,({children:e})=>{let[o]=(0,n.useState)(()=>new a.ServerStyleSheet);return(0,r.useServerInsertedHTML)(()=>{let e=o.getStyleElement();return o.instance.clearTag(),(0,t.jsx)(t.Fragment,{children:e})}),(0,t.jsx)(t.Fragment,{children:e})}])},10201,53036,e=>{"use strict";var t=e.i(97053),r=e.i(97788);e.i(17049),e.s([],53036);let n=t.default.div.withConfig({displayName:"Container",componentId:"sc-c8fba83a-0"})`
     --padding-inline-query: (100vw - min(100vw - 2 * var(--container-padding-inline), ${r.screenMax})) / 2;
     --padding-inline-start: calc(var(--padding-inline-query) + env(safe-area-inset-left));
     --padding-inline-end: calc(var(--padding-inline-query) + env(safe-area-inset-right));
@@ -103,4 +103,4 @@
         place-items: normal;
         text-align: start;
     }
-`;e.s(["default",0,()=>(0,t.jsxs)(l,{as:"footer",children:[s.copyright,(0,t.jsxs)(i.default,{href:s.repository.url,children:[(0,t.jsx)(o.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:s.bugs.url,children:[(0,t.jsx)(o.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1769380530000")))]})])}]);
+`;e.s(["default",0,()=>(0,t.jsxs)(l,{as:"footer",children:[s.copyright,(0,t.jsxs)(i.default,{href:s.repository.url,children:[(0,t.jsx)(o.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:s.bugs.url,children:[(0,t.jsx)(o.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1769380934000")))]})])}]);
