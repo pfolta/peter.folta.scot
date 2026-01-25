@@ -56,7 +56,7 @@ const links: LinkGroup[] = [
                 icon: Icon.Facebook
             },
             {
-                name: "X",
+                name: "X (Twitter)",
                 url: profile.social.twitter,
                 color: "#000000",
                 icon: Icon.X
