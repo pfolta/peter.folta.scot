@@ -6,6 +6,7 @@ import { Avatar, Container, Link } from "@/components";
 import * as Icon from "@/components/Icon";
 import { email, location, name } from "@/profile.json";
 import { links } from "@/resources";
+import { screenLarge, screenSizeMediaQuery } from "@/styles";
 
 const StyledLink = styled(Link)`
     display: block;
@@ -13,6 +14,15 @@ const StyledLink = styled(Link)`
 
 const StyledAmazonIcon = styled(Icon.Amazon)`
     vertical-align: -0.29em;
+`;
+
+const LinkGrid = styled(Container)`
+    display: grid;
+    gap: 1rem;
+
+    ${screenSizeMediaQuery(screenLarge)} {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 `;
 
 const Home = () => {
@@ -48,9 +58,7 @@ const Home = () => {
                 </p>
             </Container>
 
-            <Container as="section">
-                <h2>Profiles</h2>
-
+            <LinkGrid>
                 {links.map((group) => (
                     <section key={group.id}>
                         <h3>{group.name}</h3>
@@ -63,7 +71,7 @@ const Home = () => {
                         ))}
                     </section>
                 ))}
-            </Container>
+            </LinkGrid>
         </main>
     );
 };
