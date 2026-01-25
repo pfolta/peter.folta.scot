@@ -54,6 +54,7 @@
         "eslint-config-prettier": "^10.1.8",
         "eslint-plugin-no-inline-styles": "^1.0.5",
         "eslint-plugin-prettier": "^5.5.5",
+        "jiti": "^2.6.1",
         "postcss-styled-syntax": "^0.7.1",
         "prettier": "^3.8.1",
         "prettier-plugin-organize-imports": "^4.3.0",
