@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 import { Avatar, Container, Link } from "@/components";
 import * as Icon from "@/components/Icon";
-import packageInfo from "@/package.json";
+import { email, location, name } from "@/profile.json";
 import { links } from "@/resources";
 
 const StyledLink = styled(Link)`
@@ -15,15 +15,13 @@ const StyledAmazonIcon = styled(Icon.Amazon)`
     vertical-align: -0.29em;
 `;
 
-const { author } = packageInfo;
-
 const Home = () => {
     return (
         <main>
             <Container as="section">
                 <Avatar src="images/me.jpg" alt={`Photo of ${name}`} $size={192} />
 
-                <h1>{author.name}</h1>
+                <h1>{name}</h1>
 
                 <p>
                     Senior Software Engineer at{" "}
@@ -35,13 +33,13 @@ const Home = () => {
 
                 <p>
                     <Icon.MapMarker />
-                    Edinburgh, United Kingdom
+                    {location}
                 </p>
 
                 <p>
-                    <StyledLink href={`mailto:${author.email}`}>
+                    <StyledLink href={`mailto:${email}`}>
                         <Icon.Email />
-                        {author.email}
+                        {email}
                     </StyledLink>
                     <StyledLink href="/vcard.vcf">
                         <Icon.AddressCard />
