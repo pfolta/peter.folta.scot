@@ -34,7 +34,6 @@ export const Email = Icon(Fa6Icons.FaEnvelope);
 export const Facebook = Icon(Fa6Icons.FaSquareFacebook);
 export const FiveHundredPx = Icon(Fa6Icons.Fa500Px);
 export const Flickr = Icon(Fa6Icons.FaFlickr);
-export const Foursquare = Icon(Fa6Icons.FaFoursquare);
 export const GitHub = Icon(Fa6Icons.FaGithub);
 export const HackerNews = Icon(Fa6Icons.FaHackerNews);
 export const Hackerrank = Icon(Fa6Icons.FaHackerrank);

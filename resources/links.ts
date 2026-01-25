@@ -81,11 +81,6 @@ const links = [
                 name: "Tumblr",
                 url: profile.social.tumblr,
                 icon: Icon.Tumblr
-            },
-            {
-                name: "Foursquare",
-                url: profile.social.foursquare,
-                icon: Icon.Foursquare
             }
         ]
     },
