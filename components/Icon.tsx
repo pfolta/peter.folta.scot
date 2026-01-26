@@ -30,6 +30,7 @@ export type { IconType };
 
 export const AddressCard = Icon(Fa6Icons.FaAddressCard);
 export const Amazon = Icon(Fa6Icons.FaAmazon);
+export const BoardGameGeek = Icon(SiIcons.SiBoardgamegeek);
 export const Bug = Icon(Fa6Icons.FaBug);
 export const Camera = Icon(Fa6Icons.FaCamera);
 export const Code = Icon(Fa6Icons.FaCode);

@@ -176,6 +176,12 @@ const links: LinkGroup[] = [
         icon: Icon.GameController,
         links: [
             {
+                name: "BoardGameGeek",
+                url: profile.social.boardgamegeek,
+                color: "#ff5100",
+                icon: Icon.BoardGameGeek
+            },
+            {
                 name: "Steam",
                 url: profile.social.steam,
                 color: "#171d25",
