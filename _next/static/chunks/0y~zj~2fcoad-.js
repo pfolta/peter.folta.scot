@@ -103,4 +103,4 @@
         place-items: normal;
         text-align: start;
     }
-`;e.s(["default",0,()=>(0,t.jsxs)(l,{as:"footer",children:[o.copyright,(0,t.jsxs)(i.default,{href:o.repository.url,children:[(0,t.jsx)(s.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:o.bugs.url,children:[(0,t.jsx)(s.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1776147636000")))]})])}]);
+`;e.s(["default",0,()=>(0,t.jsxs)(l,{as:"footer",children:[o.copyright,(0,t.jsxs)(i.default,{href:o.repository.url,children:[(0,t.jsx)(s.GitHub,{}),"Source Code"]}),(0,t.jsxs)(i.default,{href:o.bugs.url,children:[(0,t.jsx)(s.Bug,{}),"Report an issue"]}),"Last updated on ",(0,r.default)("%-d %B %Y",new Date(Number("1778362162000")))]})])}]);
