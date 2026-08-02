@@ -5,7 +5,7 @@ import vCardsJs from "vcards-js";
 import profile from "@/profile.json";
 
 const vCard = vCardsJs();
-vCard.version = "4.0";
+vCard.version = "3.0";
 vCard.source = `${profile.url}/vcard.vcf`;
 vCard.photo.embedFromString(readFileSync(resolve("public/images/me.jpg")).toString("base64"), "JPEG");
 vCard.firstName = profile.firstName;

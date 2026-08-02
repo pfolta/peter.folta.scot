@@ -39,7 +39,7 @@
         "react-icons": "^5.6.0",
         "strftime": "^0.10.3",
         "styled-components": "^6.4.0",
-        "vcards-js": "^2.10.0"
+        "vcards-js": "^2.11.1"
     },
     "devDependencies": {
         "@types/node": "^25.6.0",
