@@ -17,6 +17,12 @@ export default defineConfig([
         rules: {
             "no-inline-styles/no-inline-styles": 2,
             "@typescript-eslint/no-unused-vars": ["error"]
+        },
+
+        settings: {
+            react: {
+                version: "19"
+            }
         }
     }
 ]);
